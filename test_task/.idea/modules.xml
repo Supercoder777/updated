@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Automated functional testing of KNIME HUB/.idea/AutomatedFunctionalTestingOfKNIMEHub.iml" filepath="$PROJECT_DIR$/../Automated functional testing of KNIME HUB/.idea/AutomatedFunctionalTestingOfKNIMEHub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Automated functional testing of KNIME HUB/Frameworks/.idea/Frameworks.iml" filepath="$PROJECT_DIR$/../Automated functional testing of KNIME HUB/Frameworks/.idea/Frameworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PythonSelFramework/.idea/PythonSelFramework.iml" filepath="$PROJECT_DIR$/../PythonSelFramework/.idea/PythonSelFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pytestsDemo/.idea/pytestsDemo.iml" filepath="$PROJECT_DIR$/../pytestsDemo/.idea/pytestsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonLessons/.idea/pythonLessons.iml" filepath="$PROJECT_DIR$/../pythonLessons/.idea/pythonLessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sample/.idea/sample.iml" filepath="$PROJECT_DIR$/../sample/.idea/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/test_task.iml" filepath="$PROJECT_DIR$/.idea/test_task.iml" />
+    </modules>
+  </component>
+</project>
