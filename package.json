@@ -33,7 +33,7 @@
     "json",
     "node"
   ],
-  "testTimeout": 120000
+  "testTimeout": 500000
   },
 
   "bugs": {

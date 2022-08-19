@@ -6,9 +6,17 @@ import { chromium } from "playwright";
         const browser = await chromium.launch({
             headless: false
         });
-        const context = await browser.newContext();
+        const context = await browser.newContext(
+          {
+            recordVideo : {
+              dir: "video/"
+            }
+          }
+        );
+
         const page = await context.newPage();
         // Go to https://hub.knime.com/
+        await context.tracing.start({screenshots:true, snapshots: true})
         await page.goto('https://hub.knime.com/');
         // Click text=Accept and close
         await page.locator('text=Accept and close').click();
@@ -65,5 +73,6 @@ import { chromium } from "playwright";
         // Click text=Logout
         await page.locator('text=Logout').click();
         await expect(page).toHaveURL('https://hub.knime.com/');
+        await context.tracing.stop({ path: 'cool.zip' });
 });
   
