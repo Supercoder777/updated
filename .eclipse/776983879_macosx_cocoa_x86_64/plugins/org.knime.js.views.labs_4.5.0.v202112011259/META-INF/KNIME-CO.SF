@@ -1,0 +1,122 @@
+Signature-Version: 1.0
+Created-By: 11.0.13 (Ubuntu)
+SHA-256-Digest-Manifest: 3YWR2Yp4sXkvc0QWbc9u9CtqvoOSsrjnw5OActcwso0=
+SHA-256-Digest-Manifest-Main-Attributes: EmgRRsJIOD62Nfv2ZzL/RsiNnOR8LIW
+ TwcIUnpKiTPE=
+
+Name: js-src/org/knime/js/base/node/scorer/scorer.js
+SHA-256-Digest: Ao+LChpDp1crjfrJO3qS8m8oKnqn72uR0iA0iSiioSc=
+
+Name: plugin.xml
+SHA-256-Digest: WxxI2QEuij21LsZvGnGN/RAnUedfrb4uH5Wqw0hGHNA=
+
+Name: js-src/org/knime/js/base/node/viz/documentviewer/knime-document-vi
+ ewer.js
+SHA-256-Digest: jan726sWjVageaBXnprt5nVBIkS+bj+3GBvOicGHUIY=
+
+Name: js-lib/brat_1.3/client/lib/jquery-svgdom_LICENSE.txt
+SHA-256-Digest: FoRrq3/U7t+D7ggPmZp8Ru4iumnTsNG4P8HkZ7DVWDE=
+
+Name: META-INF/maven/org.knime/org.knime.js.views.labs/pom.xml
+SHA-256-Digest: j9aheKnLD27hrIhW4KkeHvIjkKRB1URwAxQlMcyTVmE=
+
+Name: js-views-labs.jar
+SHA-256-Digest: WBD1tRG++XhujTG+ROyOulaxyDa0assSWqYLAtvkDZk=
+
+Name: js-src/org/knime/base/node/mine/optics/optics.css
+SHA-256-Digest: vvZLqOjRW1e5VvJuJ3g9DnQOJaL8Xq1p2f0ViJeNXi8=
+
+Name: js-src/org/knime/base/node/stats/dataexplorer/data-explorer.js
+SHA-256-Digest: DFMh14hQEbs+daivceZV8OzoR6LiIVDI2zo+aFIqG38=
+
+Name: js-lib/brat_1.3/client/src/url_monitor.js
+SHA-256-Digest: oD9N/2na3JL3Ygqzvk3bpVv+duYDIu0fhonS/y77c6Q=
+
+Name: js-lib/brat_1.3/client/lib/jquery.svg.min.js
+SHA-256-Digest: 52k1DTHQDIHWxsQN+c5xZBBnKY8wW23Pujg2udde3xQ=
+
+Name: js-lib/brat_1.3/style-vis.css
+SHA-256-Digest: Xr9ALLiliW3AXa8fpL14/AIw2+PAo30nEVZ/HwcwynQ=
+
+Name: js-lib/brat_1.3/static/fonts/Liberation_Sans-Regular.ttf
+SHA-256-Digest: 5osEeQ+LeCP1lLbMid8XD+2ZkOe0PprJ36kMnLbXNKs=
+
+Name: js-lib/brat_1.3/static/fonts/SIL-Open-Font-License-v1.1.txt
+SHA-256-Digest: H/P9tf9CSM+BQyq6xhHQjd/QrufzfWgijfHwIM0hoyU=
+
+Name: js-src/org/knime/js/base/node/scorer/scorer.css
+SHA-256-Digest: GzVi17YEdTb7iOFo2tg+hTWzhXAK852C8NYawzQ/nOg=
+
+Name: icons/js.png
+SHA-256-Digest: fIroNR3qD5Fs3S/t97k7RYvv6e8+XSn3diKuGd6xwJc=
+
+Name: icons/optics.png
+SHA-256-Digest: Us0W9eMrobb99OOL+EiWZifpZ0tnWrck/nQcndEbfKk=
+
+Name: js-src/org/knime/base/node/mine/optics/knime-optics.js
+SHA-256-Digest: vEGfRULo9r5tCT9AMvjTLodrsKGESobGqmtp0+xttdM=
+
+Name: js-lib/brat_1.3/brat_LICENSE.txt
+SHA-256-Digest: qmXfyAyYX6PvTjvoGY1NfDxcHgqNFgRXl/z1vJZwRDg=
+
+Name: js-lib/brat_1.3/client/lib/jquery-svg-LICENSE.txt
+SHA-256-Digest: 4e7Mou2sv45SHGTMX1Tu9OokXLCckWRZ/9FRVv4veHI=
+
+Name: js-lib/brat_1.3/client/lib/jquery-svgdom_readme.txt
+SHA-256-Digest: UCsbsJpk003mn9fGBX/WMpSTdS5Wwp2CaxC1eJDuX60=
+
+Name: js-lib/brat_1.3/static/fonts/Astloch-Bold.ttf
+SHA-256-Digest: ri7R7VzmD7/29cmFKoknVazN0I5K3EeMMX9+jL0OxmY=
+
+Name: js-lib/brat_1.3/client/lib/jquery-svg_readme.txt
+SHA-256-Digest: kq6pwt1ZHOgFJxbs0v1bcQjCuzznOzycoeTswhCB0rE=
+
+Name: js-lib/brat_1.3/client/src/annotation_log.js
+SHA-256-Digest: qsRzACl3VlpEvz2AdTXkys27FzfAizlQJWgA38r+aGQ=
+
+Name: js-lib/brat_1.3/client/src/util.js
+SHA-256-Digest: fXckgQ8E8ScbiGe+9eIMMvNsCTF/d65Y20R6KYZlVxg=
+
+Name: js-lib/brat_1.3/brat_readme.txt
+SHA-256-Digest: VzlglHyU0n/jPJSE5EiDNVIPLHx7GTCbUvp15Ac942I=
+
+Name: CHANGELOG.md
+SHA-256-Digest: +RLjyr7KtguA/hcVqVQnjKS3NulP8rDWlkxhd9Ml6JQ=
+
+Name: js-lib/brat_1.3/client/src/dispatcher.js
+SHA-256-Digest: DtqnNkrugIXDYzjVbyMEZ5vgmUITC5fM+Qj7a+fr3RA=
+
+Name: js-src/org/knime/base/node/mine/cluster/hierarchical/dendrogram.cs
+ s
+SHA-256-Digest: IIOfkgJwLAe5YSScTLh0UXNjRvtc49jfckRV8FVut78=
+
+Name: js-lib/brat_1.3/client/src/visualizer.js
+SHA-256-Digest: Ebp3ScOYgWbutFQfMkBoWmz3HpgbXVSTPvJVp2P1Y9Q=
+
+Name: js-lib/brat_1.3/static/fonts/PT_Sans-Caption-Web-Regular.ttf
+SHA-256-Digest: p99scUSk3lPwotxMxSfvSte/8jxdnmzeWnjKwaxQrRw=
+
+Name: js-src/org/knime/base/node/stats/dataexplorer/data-explorer.css
+SHA-256-Digest: r5yViTAUOltlotvAjesH4w1snWVwFwcnDHFO2alzbiA=
+
+Name: js-src/org/knime/base/node/mine/cluster/hierarchical/dendrogram.js
+SHA-256-Digest: T19veRXJ79Qs9FCy8m/DQPDkNMSIo9PzBdFHLkqKYIU=
+
+Name: LICENSE.txt
+SHA-256-Digest: vI12DiPAWZSxWqwNsp9pqTL1MRX7NCkCMTbPimOqKQQ=
+
+Name: js-src/org/knime/js/base/node/viz/documentviewer/styles.css
+SHA-256-Digest: an9Vxn+Bihw61iz5CO5dWBtdnWZrIWZoRV/BMJsaAQE=
+
+Name: js-lib/brat_1.3/client/src/configuration.js
+SHA-256-Digest: aTSwcSyPFU4gepDDs46chqCDqIMkysZrZhrneCJYWJk=
+
+Name: META-INF/maven/org.knime/org.knime.js.views.labs/pom.properties
+SHA-256-Digest: no7lKah7m7O0yj3J3n87YMpr1S9BZM+wtHSWFSYncCw=
+
+Name: js-lib/brat_1.3/client/lib/jquery.svgdom.min.js
+SHA-256-Digest: E7y+wb4b7Bf/1Jx46IduM8u3UkePdxnrPHh1gbwiiZU=
+
+Name: js-src/org/knime/base/node/mine/optics/virtualscroller.js
+SHA-256-Digest: +lCzj/laDR6Pg1slHH7ytfjtA8zikf4Cw5xpSehjT6c=
+

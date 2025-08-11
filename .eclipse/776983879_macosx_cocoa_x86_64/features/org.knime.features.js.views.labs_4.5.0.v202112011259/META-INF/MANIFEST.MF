@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 11
+
+Name: feature.xml
+SHA-256-Digest: 8ZZqbGMR+ZjsbIjznTIwnXLXOQBiwW+RKXzltaj4Nv8=
+
+Name: CHANGELOG.md
+SHA-256-Digest: t3xk7qaMbRkRUdTihev7Ui7ViWTl7/TU7sPKO7SJ13E=
+

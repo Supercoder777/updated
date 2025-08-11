@@ -1,0 +1,104 @@
+!SESSION 2022-05-29 15:14:13.351 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/HP/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data @noDefault -keyring /Users/HP/.eclipse_keyring
+
+!ENTRY org.eclipse.oomph.setup.installer 4 0 2022-05-29 15:14:29.194
+!MESSAGE /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+!STACK 0
+java.nio.file.FileSystemException: /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at org.eclipse.urischeme.internal.registration.FileProvider.newWriter(FileProvider.java:51)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:149)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.setRegistrations(URISchemeUtil.java:249)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.registerDefault(URISchemeUtil.java:171)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.run(InstallerApplication.java:97)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.start(InstallerApplication.java:393)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.oomph.setup.installer 4 0 2022-05-29 15:14:29.223
+!MESSAGE /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+!STACK 0
+java.nio.file.FileSystemException: /Volumes/Eclipse Installer/Eclipse Installer.app/Contents/Info.plist: Read-only file system
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+	at org.eclipse.urischeme.internal.registration.FileProvider.newWriter(FileProvider.java:51)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:149)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.setRegistrations(URISchemeUtil.java:271)
+	at org.eclipse.oomph.setup.internal.installer.URISchemeUtil.registerDefault(URISchemeUtil.java:171)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.run(InstallerApplication.java:97)
+	at org.eclipse.oomph.setup.internal.installer.InstallerApplication.start(InstallerApplication.java:393)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.equinox.p2.metadata 1 0 2022-05-29 15:18:07.150
+!MESSAGE No translation source unavailable. Default language will be used.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-29 15:18:07.491
+!MESSAGE Loading 'file:/Users/HP/.p2/org.eclipse.equinox.p2.core/cache/' failed. retry=1
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-29 15:18:07.520
+!MESSAGE Loading 'file:/Users/HP/.p2/org.eclipse.equinox.p2.core/cache/' failed. retry=2
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-29 15:18:07.531
+!MESSAGE Loading 'file:/Users/HP/.p2/org.eclipse.equinox.p2.core/cache/' failed. retry=1
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-29 15:18:07.533
+!MESSAGE Loading 'file:/Users/HP/.p2/org.eclipse.equinox.p2.core/cache/' failed. retry=2
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-29 15:18:07.538
+!MESSAGE Loading 'file:/Users/HP/.p2/pool/' failed. retry=1
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-29 15:18:07.545
+!MESSAGE Loading 'file:/Users/HP/.p2/pool/' failed. retry=2
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-29 15:18:07.551
+!MESSAGE Loading 'file:/Users/HP/.p2/pool/' failed. retry=1
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-29 15:18:07.552
+!MESSAGE Loading 'file:/Users/HP/.p2/pool/' failed. retry=2
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-29 15:18:07.944
+!MESSAGE Loading 'file:/Users/HP/.eclipse/1738435388_macosx_cocoa_x86_64/' failed. retry=1
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-29 15:18:07.948
+!MESSAGE Loading 'file:/Users/HP/.eclipse/1738435388_macosx_cocoa_x86_64/' failed. retry=2

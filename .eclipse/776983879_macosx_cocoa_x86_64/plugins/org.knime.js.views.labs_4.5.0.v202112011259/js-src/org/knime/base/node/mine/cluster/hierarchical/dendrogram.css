@@ -1,0 +1,122 @@
+.viewport {
+    clip-path: url(#viewportClip);
+}
+
+.link {
+    fill: none;
+    stroke: #000000;
+    shape-rendering: crispEdges;
+}
+
+.link.outOfThreshold,
+.link.outOfFilter,
+.showSelectedOnly .link {
+    stroke: #e9e9e9;
+}
+
+.link.selected {
+    stroke: #ffa600;
+}
+
+.link.selected.outOfFilter {
+    stroke: #e2d0af;
+}
+
+.leaf {
+    shape-rendering: crispEdges;
+}
+
+.leaf.outOfFilter,
+.showSelectedOnly .leaf:not(.selected) {
+    fill: #e9e9e9;
+}
+
+.selectionEnabled .leaf:not(.outOfFilter) {
+    cursor: pointer;
+}
+
+.cluster {
+    fill: #a3a2a2;
+}
+
+.selectionEnabled .cluster:not(.outOfFilter) {
+    cursor: pointer;
+}
+
+.cluster.root {
+    fill: #000000;
+}
+
+.cluster.outOfThreshold,
+.cluster.outOfFilter,
+.showSelectedOnly .cluster {
+    fill: #e9e9e9;
+}
+
+.cluster.selected,
+.selectionEnabled .cluster:not(.outOfFilter):hover {
+    fill: #ffa600;
+}
+
+.cluster.selected.outOfFilter {
+    fill: #e2d0af;
+}
+
+.threshold {
+    fill: #ff0000;
+}
+
+.thresholdEnabled .threshold {
+    cursor: ns-resize;
+}
+
+.knime-axis.knime-x {
+    clip-path: url(#xAxisClip);
+}
+
+.knime-axis.knime-x .knime-tick-label {
+    text-anchor: end;
+}
+
+.knime-axis.knime-x .knime-tick.ellipsis .knime-tick-label {
+    pointer-events: none;
+}
+
+.knime-axis.knime-x .knime-tick.ellipsis .knime-tick-line {
+    display: none;
+}
+
+.selectionEnabled .knime-axis.knime-x .tick:not(.outOfFilter) .knime-tick-label {
+    cursor: pointer;
+}
+
+
+
+.knime-axis .knime-tick-line {
+    stroke: #000000;
+}
+
+.knime-axis.knime-x .tick.outOfFilter .knime-tick-label,
+.showSelectedOnly .knime-axis.knime-x .tick .knime-tick-label {
+    fill: #d3cece;
+}
+
+.knime-axis.knime-x .tick.selected .knime-tick-label {
+    fill: #ffa600;
+}
+
+.knime-axis.knime-x .tick.outOfFilter .knime-tick-line,
+.showSelectedOnly .knime-axis.knime-x .tick .knime-tick-line {
+    stroke: #d3cece;
+}
+
+.knime-axis .tick.selected .knime-tick-line {
+    stroke: #ffa600;
+}
+
+.knime-axis.knime-x .tick.selected.outOfFilter .knime-tick-label {
+    fill: #e2d0af;
+}
+.knime-axis.knime-x .tick.selected.outOfFilter .knime-tick-line {
+    stroke: #dac59e;
+}

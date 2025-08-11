@@ -1,0 +1,803 @@
+2024-11-28 16:57:38.034+0100 [BROWSERLOCKOSX] [INFO] Java version = 21.0.4
+2024-11-28 16:57:38.184+0100 [BROWSERLOCKOSX] [INFO] Secure delivery service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2024-11-28 16:57:42.763+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching logging service url :200
+2024-11-28 16:57:42.764+0100 [BROWSERLOCKOSX] [INFO] Browserlock logging service url is successfully fetched from SDS
+2024-11-28 16:57:42.767+0100 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=NUHptzSzxXhFAnkSoFoNIxyWmA8d9Q3P3OAbN+8hs9T4bRFukGGCxwQbNObD9eq2h5oPK62k9GqLh84qdX6ktr5ad6yPGPeQuPwqp8Y/cQWTBd1Csl1aBr4We3OCU57863NLMuS+4hfPqeY/vZA7/HKFvXQ+j9ALPpg1qJnQMAfgJTM6BjQ/YJB/2oetjzBzqrwIeUrwJqikQGRPbV6fH0n+1Yv/unBG+YuDwILZdOIuiXZhefIXKfNuzvQ=
+2024-11-28 16:57:43.861+0100 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2024-11-28 16:57:43.862+0100 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2024-11-28 16:57:44.438+0100 [BROWSERLOCKOSX] [INFO] JNI Env set!
+2024-11-28 16:57:44.449+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in System Test
+2024-11-28 16:57:44.452+0100 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 492907104
+2024-11-28 16:57:44.456+0100 [BROWSERLOCKOSX] [INFO] Provided registrationId: 492907104
+2024-11-28 16:57:44.457+0100 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=BRIGHTEST 
+2024-11-28 16:57:44.461+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2024-11-28 16:57:44.463+0100 [BROWSERLOCKOSX] [INFO] Received BL language is invalid: blLanguage=null
+2024-11-28 16:57:48.963+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2024-11-28 16:57:48.965+0100 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2024-11-28 16:57:49.003+0100 [BROWSERLOCKOSX] [INFO] Enable Swift Flag: enableSwift=true
+2024-11-28 16:57:49.004+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE hash mismatch: stopOnOnvueHashMismatch=false
+2024-11-28 16:57:49.006+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE process name mismatch: stopOnOnvueProcessNameMismatch=false
+2024-11-28 16:57:49.007+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE session invalid: stopOnOnvueSessionInvalid=false
+2024-11-28 16:57:49.008+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on Machine guid mismatch: stopOnMachineGuidMismatch=false
+2024-11-28 16:57:49.009+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on user name mismatch: stopOnUserNameMismatch=false
+2024-11-28 16:57:49.010+0100 [BROWSERLOCKOSX] [INFO] validate Certificate Expiry for Public Key Pinning in days=180
+2024-11-28 16:57:49.011+0100 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2024-11-28 16:57:49.011+0100 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2024-11-28 16:57:49.012+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on hash value mismatch violation: stopOnHashMismatch=true
+2024-11-28 16:57:49.015+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on shutdown file changed: stopOnShutdownFileChanged=true
+2024-11-28 16:57:49.017+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on VPN detection using maxmind: stopOnVpnAnonymousDetection=false
+2024-11-28 16:57:49.017+0100 [BROWSERLOCKOSX] [INFO] Log VPN detection details using maxmind: logAnonymousVpnDetection=true
+2024-11-28 16:57:49.076+0100 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 492907104, -C, BRIGHTEST, -ST, -BR]", url="null", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="BRIGHTEST", deliveryMode="op", validArgs=true
+2024-11-28 16:57:49.718+0100 [BROWSERLOCKOSX] [INFO] ChipType identified. chipType=Apple M1
+2024-11-28 16:57:50.635+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 16:57:50.648+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX 
+2024-11-28 16:57:50.650+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX
+2024-11-28 16:57:51.711+0100 [BROWSERLOCKOSX] [INFO] Delivery Config Response Code :200
+2024-11-28 16:57:51.714+0100 [BROWSERLOCKOSX] [INFO] Forensic Delivery Config is successfully fetched from SDS
+2024-11-28 16:57:51.717+0100 [BROWSERLOCKOSX] [INFO] VM Allowed flag value from forensics is vmAllowedForensic=false
+2024-11-28 16:57:51.721+0100 [BROWSERLOCKOSX] [INFO] Multiple Monitor Allowed flag value from forensics is multiMonitorAllowedForensic=false
+2024-11-28 16:57:51.721+0100 [BROWSERLOCKOSX] [INFO] VPN Allowed flag value from forensics is vpnAllowedForensic=false
+2024-11-28 16:57:51.721+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP Detection flag value from forensics is anonymousIPDetection=false
+2024-11-28 16:57:51.812+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2024-11-28 16:57:51.814+0100 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2024-11-28 16:57:51.814+0100 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2024-11-28 16:57:51.815+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2024-11-28 16:57:51.815+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2024-11-28 16:57:51.815+0100 [BROWSERLOCKOSX] [INFO] VPN configuration received from SDS will be applied for validation
+2024-11-28 16:57:51.815+0100 [BROWSERLOCKOSX] [INFO] VPN detection value is: vpnDetectConfig=true
+2024-11-28 16:57:51.815+0100 [BROWSERLOCKOSX] [INFO] USB mass storage detection value is: usbDetectConfig=true
+2024-11-28 16:57:51.815+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP logging value is: anonymousIPLogging=false
+2024-11-28 16:57:51.815+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP detection value is: anonymousIPDetection=false
+2024-11-28 16:57:52.416+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 16:57:52.443+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST 
+2024-11-28 16:57:52.447+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST
+2024-11-28 16:57:52.725+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching client minimum version :200
+2024-11-28 16:57:52.726+0100 [BROWSERLOCKOSX] [INFO] Client minimum version is successfully fetched from SDS
+2024-11-28 16:57:52.726+0100 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required, minimumVersion=2402
+2024-11-28 16:57:52.727+0100 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2411.1.2
+2024-11-28 16:57:57.330+0100 [BROWSERLOCKOSX] [INFO] Main screen name: Built-in Retina Display
+2024-11-28 16:57:57.332+0100 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2024-11-28 16:57:58.528+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 16:57:58.996+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 16:57:59.001+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX 
+2024-11-28 16:57:59.002+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX
+2024-11-28 16:58:00.421+0100 [BROWSERLOCKOSX] [INFO] Fetch Forensic Pal Response Code :200
+2024-11-28 16:58:00.424+0100 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2024-11-28 16:58:00.425+0100 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1881 ms
+2024-11-28 16:58:00.797+0100 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2024-11-28 16:58:01.356+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 16:58:01.363+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: universalaccessauthwarn, osduihelper, textinputswitcher, sirincservice, universal control, nowplayingtouchui, telegram, wine64, usernotificationcenter, surfshark, 1password, grammarly desktop, jetbrains toolbox, general (system settings), spotlight, finder, zoom.us, opera, system settings, cursoruiviewservice, wallpaper, notification center, control center, 
+2024-11-28 16:58:01.397+0100 [BROWSERLOCKOSX] [INFO] Processes present in exit file {"processes":[{"processName":"firefoxcp web content"},{"processName":"firefoxcp webextensions"},{"processName":"firefoxcp web content"},{"processName":"google chrome"},{"processName":"firefoxcp privileged content"},{"processName":"firefox"},{"processName":"firefoxcp isolated web content"},{"processName":"firefoxcp utility process"},{"processName":"safari"},{"processName":"firefoxcp web content"},{"processName":"firefoxcp socket process"}]}
+2024-11-28 16:58:01.414+0100 [BROWSERLOCKOSX] [INFO] Resuming processes: universalaccessauthwarn, grammarly desktop, 1password, nowplayingtouchui, telegram, finder, opera, textinputswitcher, general (system settings), osduihelper, surfshark, cursoruiviewservice, universal control, zoom.us, wine64, system settings, wallpaper, jetbrains toolbox, spotlight, notification center, sirincservice, usernotificationcenter, control center, 
+2024-11-28 16:58:01.415+0100 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2024-11-28 16:58:01.440+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2024-11-28 16:58:01.509+0100 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 
+2024-11-28 16:59:08.258+0100 [BROWSERLOCKOSX] [INFO] Java version = 21.0.4
+2024-11-28 16:59:08.389+0100 [BROWSERLOCKOSX] [INFO] Secure delivery service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2024-11-28 16:59:12.915+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching logging service url :200
+2024-11-28 16:59:12.919+0100 [BROWSERLOCKOSX] [INFO] Browserlock logging service url is successfully fetched from SDS
+2024-11-28 16:59:12.922+0100 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=m8xZqoSY6Zttwx5wFV3+H/m3qlks6pddja2brzH6G/gVAkrSrnHGdEzDQs2e/mvgKTGgHDa0pyj0uPrYymy8agtHcxM5Dgiew1g8m7I/26icB4ll9F2P0ikdjMm2J8IO0H8NCZvZTyhHCym9EvDApMCTlaWfXLrMMiv4hZAI9ju0liCq/hSfBwALDmXClyYPmt7Ftdez6/HQDgyd9NE0/lNhv83xhapE7p6NDwf9btOnaML+AwT12ud0Jp4=
+2024-11-28 16:59:14.061+0100 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2024-11-28 16:59:14.064+0100 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2024-11-28 16:59:14.213+0100 [BROWSERLOCKOSX] [INFO] JNI Env set!
+2024-11-28 16:59:14.233+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in System Test
+2024-11-28 16:59:14.236+0100 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 492907104
+2024-11-28 16:59:14.237+0100 [BROWSERLOCKOSX] [INFO] Provided registrationId: 492907104
+2024-11-28 16:59:14.238+0100 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=BRIGHTEST 
+2024-11-28 16:59:14.245+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2024-11-28 16:59:14.246+0100 [BROWSERLOCKOSX] [INFO] Received BL language is invalid: blLanguage=null
+2024-11-28 16:59:16.978+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2024-11-28 16:59:16.979+0100 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2024-11-28 16:59:17.009+0100 [BROWSERLOCKOSX] [INFO] Enable Swift Flag: enableSwift=true
+2024-11-28 16:59:17.011+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE hash mismatch: stopOnOnvueHashMismatch=false
+2024-11-28 16:59:17.013+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE process name mismatch: stopOnOnvueProcessNameMismatch=false
+2024-11-28 16:59:17.014+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE session invalid: stopOnOnvueSessionInvalid=false
+2024-11-28 16:59:17.014+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on Machine guid mismatch: stopOnMachineGuidMismatch=false
+2024-11-28 16:59:17.014+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on user name mismatch: stopOnUserNameMismatch=false
+2024-11-28 16:59:17.014+0100 [BROWSERLOCKOSX] [INFO] validate Certificate Expiry for Public Key Pinning in days=180
+2024-11-28 16:59:17.015+0100 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2024-11-28 16:59:17.015+0100 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2024-11-28 16:59:17.015+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on hash value mismatch violation: stopOnHashMismatch=true
+2024-11-28 16:59:17.015+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on shutdown file changed: stopOnShutdownFileChanged=true
+2024-11-28 16:59:17.016+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on VPN detection using maxmind: stopOnVpnAnonymousDetection=false
+2024-11-28 16:59:17.016+0100 [BROWSERLOCKOSX] [INFO] Log VPN detection details using maxmind: logAnonymousVpnDetection=true
+2024-11-28 16:59:17.096+0100 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 492907104, -C, BRIGHTEST, -ST, -BR]", url="null", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="BRIGHTEST", deliveryMode="op", validArgs=true
+2024-11-28 16:59:17.199+0100 [BROWSERLOCKOSX] [INFO] ChipType identified. chipType=Apple M1
+2024-11-28 16:59:18.183+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 16:59:18.196+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX 
+2024-11-28 16:59:18.201+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX
+2024-11-28 16:59:19.790+0100 [BROWSERLOCKOSX] [INFO] Delivery Config Response Code :200
+2024-11-28 16:59:19.791+0100 [BROWSERLOCKOSX] [INFO] Forensic Delivery Config is successfully fetched from SDS
+2024-11-28 16:59:19.796+0100 [BROWSERLOCKOSX] [INFO] VM Allowed flag value from forensics is vmAllowedForensic=false
+2024-11-28 16:59:19.799+0100 [BROWSERLOCKOSX] [INFO] Multiple Monitor Allowed flag value from forensics is multiMonitorAllowedForensic=false
+2024-11-28 16:59:19.800+0100 [BROWSERLOCKOSX] [INFO] VPN Allowed flag value from forensics is vpnAllowedForensic=false
+2024-11-28 16:59:19.800+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP Detection flag value from forensics is anonymousIPDetection=false
+2024-11-28 16:59:19.888+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2024-11-28 16:59:19.892+0100 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2024-11-28 16:59:19.892+0100 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2024-11-28 16:59:19.892+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2024-11-28 16:59:19.892+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2024-11-28 16:59:19.892+0100 [BROWSERLOCKOSX] [INFO] VPN configuration received from SDS will be applied for validation
+2024-11-28 16:59:19.892+0100 [BROWSERLOCKOSX] [INFO] VPN detection value is: vpnDetectConfig=true
+2024-11-28 16:59:19.892+0100 [BROWSERLOCKOSX] [INFO] USB mass storage detection value is: usbDetectConfig=true
+2024-11-28 16:59:19.892+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP logging value is: anonymousIPLogging=false
+2024-11-28 16:59:19.892+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP detection value is: anonymousIPDetection=false
+2024-11-28 16:59:20.375+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 16:59:20.412+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST 
+2024-11-28 16:59:20.414+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST
+2024-11-28 16:59:20.659+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching client minimum version :200
+2024-11-28 16:59:20.664+0100 [BROWSERLOCKOSX] [INFO] Client minimum version is successfully fetched from SDS
+2024-11-28 16:59:20.664+0100 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required, minimumVersion=2402
+2024-11-28 16:59:20.665+0100 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2411.1.2
+2024-11-28 16:59:21.055+0100 [BROWSERLOCKOSX] [INFO] Main screen name: Built-in Retina Display
+2024-11-28 16:59:21.057+0100 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2024-11-28 16:59:21.658+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 16:59:22.159+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 16:59:22.164+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX 
+2024-11-28 16:59:22.165+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX
+2024-11-28 16:59:23.575+0100 [BROWSERLOCKOSX] [INFO] Fetch Forensic Pal Response Code :200
+2024-11-28 16:59:23.576+0100 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2024-11-28 16:59:23.576+0100 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1890 ms
+2024-11-28 16:59:24.012+0100 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2024-11-28 16:59:24.670+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 16:59:24.675+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: universalaccessauthwarn, osduihelper, textinputswitcher, sirincservice, universal control, nowplayingtouchui, telegram, wine64, usernotificationcenter, surfshark, 1password, grammarly desktop, jetbrains toolbox, spotlight, finder, zoom.us, opera, cursoruiviewservice, wallpaper, notification center, control center, 
+2024-11-28 16:59:24.691+0100 [BROWSERLOCKOSX] [INFO] Processes present in exit file {"processes":[{"processName":"firefoxcp utility process"},{"processName":"firefoxcp web content"},{"processName":"firefox"},{"processName":"firefoxcp webextensions"},{"processName":"firefoxcp socket process"},{"processName":"firefoxcp web content"},{"processName":"firefoxcp isolated web content"},{"processName":"google chrome"},{"processName":"firefoxcp privileged content"},{"processName":"firefoxcp web content"},{"processName":"safari"}]}
+2024-11-28 16:59:24.702+0100 [BROWSERLOCKOSX] [INFO] Resuming processes: universalaccessauthwarn, grammarly desktop, 1password, nowplayingtouchui, telegram, finder, opera, textinputswitcher, osduihelper, surfshark, cursoruiviewservice, universal control, zoom.us, wine64, wallpaper, jetbrains toolbox, spotlight, notification center, sirincservice, usernotificationcenter, control center, 
+2024-11-28 16:59:24.703+0100 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2024-11-28 16:59:24.722+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2024-11-28 16:59:24.807+0100 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 
+2024-11-28 17:03:22.076+0100 [BROWSERLOCKOSX] [INFO] Java version = 21.0.4
+2024-11-28 17:03:22.125+0100 [BROWSERLOCKOSX] [INFO] Secure delivery service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2024-11-28 17:03:23.911+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching logging service url :200
+2024-11-28 17:03:23.912+0100 [BROWSERLOCKOSX] [INFO] Browserlock logging service url is successfully fetched from SDS
+2024-11-28 17:03:23.912+0100 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=07KIqtLSX592uPvE/sTklUIrLeQVmdiKGw4CATWipjMV6IV2bQ1h9ppArMNeF9yNKl4GmIEtMJFBKuqPWi63XhrLexv11H6PIRmfl+W8CKmab4YFXDHUbXpapY705C3mDi7GfFuDg+DL9OJ0EpKeCjvyaelIm0fB/dnQ4cOTcjdNmDxW1bvTP3xHEvSLDd+UXZQKCaEAUdUCkDP1+P3QZgDhSZ3M7nv9z43NyJ7wg64IhSM42tTZ19CFG5E=
+2024-11-28 17:03:24.606+0100 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2024-11-28 17:03:24.607+0100 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2024-11-28 17:03:24.641+0100 [BROWSERLOCKOSX] [INFO] JNI Env set!
+2024-11-28 17:03:24.644+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in System Test
+2024-11-28 17:03:24.645+0100 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 492907104
+2024-11-28 17:03:24.646+0100 [BROWSERLOCKOSX] [INFO] Provided registrationId: 492907104
+2024-11-28 17:03:24.646+0100 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=BRIGHTEST 
+2024-11-28 17:03:24.646+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2024-11-28 17:03:24.646+0100 [BROWSERLOCKOSX] [INFO] Received BL language is invalid: blLanguage=null
+2024-11-28 17:03:25.652+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2024-11-28 17:03:25.653+0100 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2024-11-28 17:03:25.666+0100 [BROWSERLOCKOSX] [INFO] Enable Swift Flag: enableSwift=true
+2024-11-28 17:03:25.666+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE hash mismatch: stopOnOnvueHashMismatch=false
+2024-11-28 17:03:25.666+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE process name mismatch: stopOnOnvueProcessNameMismatch=false
+2024-11-28 17:03:25.666+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE session invalid: stopOnOnvueSessionInvalid=false
+2024-11-28 17:03:25.667+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on Machine guid mismatch: stopOnMachineGuidMismatch=false
+2024-11-28 17:03:25.667+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on user name mismatch: stopOnUserNameMismatch=false
+2024-11-28 17:03:25.667+0100 [BROWSERLOCKOSX] [INFO] validate Certificate Expiry for Public Key Pinning in days=180
+2024-11-28 17:03:25.667+0100 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2024-11-28 17:03:25.667+0100 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2024-11-28 17:03:25.668+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on hash value mismatch violation: stopOnHashMismatch=true
+2024-11-28 17:03:25.668+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on shutdown file changed: stopOnShutdownFileChanged=true
+2024-11-28 17:03:25.668+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on VPN detection using maxmind: stopOnVpnAnonymousDetection=false
+2024-11-28 17:03:25.668+0100 [BROWSERLOCKOSX] [INFO] Log VPN detection details using maxmind: logAnonymousVpnDetection=true
+2024-11-28 17:03:25.699+0100 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 492907104, -C, BRIGHTEST, -ST, -BR]", url="null", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="BRIGHTEST", deliveryMode="op", validArgs=true
+2024-11-28 17:03:25.743+0100 [BROWSERLOCKOSX] [INFO] ChipType identified. chipType=Apple M1
+2024-11-28 17:03:26.270+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 17:03:26.274+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX 
+2024-11-28 17:03:26.275+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX
+2024-11-28 17:03:26.965+0100 [BROWSERLOCKOSX] [INFO] Delivery Config Response Code :200
+2024-11-28 17:03:26.968+0100 [BROWSERLOCKOSX] [INFO] Forensic Delivery Config is successfully fetched from SDS
+2024-11-28 17:03:26.969+0100 [BROWSERLOCKOSX] [INFO] VM Allowed flag value from forensics is vmAllowedForensic=false
+2024-11-28 17:03:26.970+0100 [BROWSERLOCKOSX] [INFO] Multiple Monitor Allowed flag value from forensics is multiMonitorAllowedForensic=false
+2024-11-28 17:03:26.970+0100 [BROWSERLOCKOSX] [INFO] VPN Allowed flag value from forensics is vpnAllowedForensic=false
+2024-11-28 17:03:26.970+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP Detection flag value from forensics is anonymousIPDetection=false
+2024-11-28 17:03:27.025+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2024-11-28 17:03:27.028+0100 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2024-11-28 17:03:27.029+0100 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2024-11-28 17:03:27.029+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2024-11-28 17:03:27.029+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2024-11-28 17:03:27.029+0100 [BROWSERLOCKOSX] [INFO] VPN configuration received from SDS will be applied for validation
+2024-11-28 17:03:27.029+0100 [BROWSERLOCKOSX] [INFO] VPN detection value is: vpnDetectConfig=true
+2024-11-28 17:03:27.029+0100 [BROWSERLOCKOSX] [INFO] USB mass storage detection value is: usbDetectConfig=true
+2024-11-28 17:03:27.029+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP logging value is: anonymousIPLogging=false
+2024-11-28 17:03:27.029+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP detection value is: anonymousIPDetection=false
+2024-11-28 17:03:27.372+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 17:03:27.375+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST 
+2024-11-28 17:03:27.376+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST
+2024-11-28 17:03:27.552+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching client minimum version :200
+2024-11-28 17:03:27.555+0100 [BROWSERLOCKOSX] [INFO] Client minimum version is successfully fetched from SDS
+2024-11-28 17:03:27.555+0100 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required, minimumVersion=2402
+2024-11-28 17:03:27.556+0100 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2411.1.2
+2024-11-28 17:03:27.671+0100 [BROWSERLOCKOSX] [INFO] Main screen name: Built-in Retina Display
+2024-11-28 17:03:27.672+0100 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2024-11-28 17:03:28.137+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 17:03:28.139+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX 
+2024-11-28 17:03:28.140+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX
+2024-11-28 17:03:29.242+0100 [BROWSERLOCKOSX] [INFO] Fetch Forensic Pal Response Code :200
+2024-11-28 17:03:29.244+0100 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2024-11-28 17:03:29.244+0100 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1415 ms
+2024-11-28 17:03:29.429+0100 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2024-11-28 17:03:29.673+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 17:03:29.676+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: grammarly desktop, universalaccessauthwarn, osduihelper, textinputswitcher, sirincservice, universal control, nowplayingtouchui, telegram, wine64, usernotificationcenter, surfshark, 1password, jetbrains toolbox, spotlight, finder, zoom.us, opera, cursoruiviewservice, wallpaper, notification center, control center, 
+2024-11-28 17:03:29.686+0100 [BROWSERLOCKOSX] [INFO] Processes present in exit file {"processes":[{"processName":"safari"}]}
+2024-11-28 17:03:29.690+0100 [BROWSERLOCKOSX] [INFO] Resuming processes: universalaccessauthwarn, 1password, nowplayingtouchui, telegram, finder, opera, textinputswitcher, osduihelper, surfshark, cursoruiviewservice, grammarly desktop, universal control, zoom.us, wine64, wallpaper, jetbrains toolbox, spotlight, notification center, sirincservice, usernotificationcenter, control center, 
+2024-11-28 17:03:29.691+0100 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2024-11-28 17:03:29.698+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2024-11-28 17:03:29.736+0100 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 
+2024-11-28 17:05:36.807+0100 [BROWSERLOCKOSX] [INFO] Java version = 21.0.4
+2024-11-28 17:05:36.859+0100 [BROWSERLOCKOSX] [INFO] Secure delivery service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2024-11-28 17:05:38.428+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching logging service url :200
+2024-11-28 17:05:38.428+0100 [BROWSERLOCKOSX] [INFO] Browserlock logging service url is successfully fetched from SDS
+2024-11-28 17:05:38.429+0100 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=PG/nftmeQpCFIi4JFGA9AmheyLV4x1MgFdfygDbQ72JKcxgdPPVSGTKi3ZVXTrEfiXNtlMrvwzRL97taxu/9+JJSZ1g77uswFcCJ3rBSj3CVnpkQOKKYpdc3WIiRXB+UqnJ3kOchLOrr4l8k9GNHi09R0nt0TbUjDqCukIut2hRo6888wY9y6cA5o8MYf9+OEnh7TUJevq9Df07rNvDN9f03vW1L0697CcwPcLy/3OYNgrrgHzGT9wo/mWA=
+2024-11-28 17:05:39.186+0100 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2024-11-28 17:05:39.187+0100 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2024-11-28 17:05:39.219+0100 [BROWSERLOCKOSX] [INFO] JNI Env set!
+2024-11-28 17:05:39.222+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in System Test
+2024-11-28 17:05:39.224+0100 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 492907104
+2024-11-28 17:05:39.224+0100 [BROWSERLOCKOSX] [INFO] Provided registrationId: 492907104
+2024-11-28 17:05:39.224+0100 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=BRIGHTEST 
+2024-11-28 17:05:39.224+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2024-11-28 17:05:39.224+0100 [BROWSERLOCKOSX] [INFO] Received BL language is invalid: blLanguage=null
+2024-11-28 17:05:40.046+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2024-11-28 17:05:40.047+0100 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2024-11-28 17:05:40.068+0100 [BROWSERLOCKOSX] [INFO] Enable Swift Flag: enableSwift=true
+2024-11-28 17:05:40.069+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE hash mismatch: stopOnOnvueHashMismatch=false
+2024-11-28 17:05:40.069+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE process name mismatch: stopOnOnvueProcessNameMismatch=false
+2024-11-28 17:05:40.069+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE session invalid: stopOnOnvueSessionInvalid=false
+2024-11-28 17:05:40.069+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on Machine guid mismatch: stopOnMachineGuidMismatch=false
+2024-11-28 17:05:40.069+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on user name mismatch: stopOnUserNameMismatch=false
+2024-11-28 17:05:40.069+0100 [BROWSERLOCKOSX] [INFO] validate Certificate Expiry for Public Key Pinning in days=180
+2024-11-28 17:05:40.069+0100 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2024-11-28 17:05:40.069+0100 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2024-11-28 17:05:40.070+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on hash value mismatch violation: stopOnHashMismatch=true
+2024-11-28 17:05:40.070+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on shutdown file changed: stopOnShutdownFileChanged=true
+2024-11-28 17:05:40.070+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on VPN detection using maxmind: stopOnVpnAnonymousDetection=false
+2024-11-28 17:05:40.070+0100 [BROWSERLOCKOSX] [INFO] Log VPN detection details using maxmind: logAnonymousVpnDetection=true
+2024-11-28 17:05:40.100+0100 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 492907104, -C, BRIGHTEST, -ST, -BR]", url="null", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="BRIGHTEST", deliveryMode="op", validArgs=true
+2024-11-28 17:05:40.143+0100 [BROWSERLOCKOSX] [INFO] ChipType identified. chipType=Apple M1
+2024-11-28 17:05:40.740+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 17:05:40.749+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX 
+2024-11-28 17:05:40.751+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX
+2024-11-28 17:05:41.485+0100 [BROWSERLOCKOSX] [INFO] Delivery Config Response Code :200
+2024-11-28 17:05:41.487+0100 [BROWSERLOCKOSX] [INFO] Forensic Delivery Config is successfully fetched from SDS
+2024-11-28 17:05:41.488+0100 [BROWSERLOCKOSX] [INFO] VM Allowed flag value from forensics is vmAllowedForensic=false
+2024-11-28 17:05:41.489+0100 [BROWSERLOCKOSX] [INFO] Multiple Monitor Allowed flag value from forensics is multiMonitorAllowedForensic=false
+2024-11-28 17:05:41.489+0100 [BROWSERLOCKOSX] [INFO] VPN Allowed flag value from forensics is vpnAllowedForensic=false
+2024-11-28 17:05:41.489+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP Detection flag value from forensics is anonymousIPDetection=false
+2024-11-28 17:05:41.539+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2024-11-28 17:05:41.540+0100 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2024-11-28 17:05:41.540+0100 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2024-11-28 17:05:41.540+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2024-11-28 17:05:41.540+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2024-11-28 17:05:41.541+0100 [BROWSERLOCKOSX] [INFO] VPN configuration received from SDS will be applied for validation
+2024-11-28 17:05:41.544+0100 [BROWSERLOCKOSX] [INFO] VPN detection value is: vpnDetectConfig=true
+2024-11-28 17:05:41.544+0100 [BROWSERLOCKOSX] [INFO] USB mass storage detection value is: usbDetectConfig=true
+2024-11-28 17:05:41.544+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP logging value is: anonymousIPLogging=false
+2024-11-28 17:05:41.544+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP detection value is: anonymousIPDetection=false
+2024-11-28 17:05:41.852+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 17:05:41.856+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST 
+2024-11-28 17:05:41.857+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST
+2024-11-28 17:05:42.036+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching client minimum version :200
+2024-11-28 17:05:42.037+0100 [BROWSERLOCKOSX] [INFO] Client minimum version is successfully fetched from SDS
+2024-11-28 17:05:42.038+0100 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required, minimumVersion=2402
+2024-11-28 17:05:42.038+0100 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2411.1.2
+2024-11-28 17:05:42.121+0100 [BROWSERLOCKOSX] [INFO] Main screen name: Built-in Retina Display
+2024-11-28 17:05:42.122+0100 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2024-11-28 17:05:42.608+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 17:05:42.610+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX 
+2024-11-28 17:05:42.611+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX
+2024-11-28 17:05:44.542+0100 [BROWSERLOCKOSX] [INFO] Fetch Forensic Pal Response Code :200
+2024-11-28 17:05:44.544+0100 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2024-11-28 17:05:44.544+0100 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=2323 ms
+2024-11-28 17:05:44.704+0100 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2024-11-28 17:05:44.933+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 17:05:44.934+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: grammarly desktop, universalaccessauthwarn, osduihelper, textinputswitcher, sirincservice, universal control, nowplayingtouchui, telegram, wine64, usernotificationcenter, surfshark, 1password, jetbrains toolbox, spotlight, finder, zoom.us, opera, cursoruiviewservice, wallpaper, notification center, control center, 
+2024-11-28 17:05:44.938+0100 [BROWSERLOCKOSX] [INFO] No terminate processes present to read in ovexit.dat file
+2024-11-28 17:05:44.947+0100 [BROWSERLOCKOSX] [INFO] Resuming processes: universalaccessauthwarn, 1password, nowplayingtouchui, telegram, finder, opera, textinputswitcher, osduihelper, surfshark, cursoruiviewservice, grammarly desktop, universal control, zoom.us, wine64, wallpaper, jetbrains toolbox, spotlight, notification center, sirincservice, usernotificationcenter, control center, 
+2024-11-28 17:05:44.948+0100 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2024-11-28 17:05:44.957+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2024-11-28 17:05:44.971+0100 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 
+2024-11-28 17:06:12.810+0100 [BROWSERLOCKOSX] [INFO] Java version = 21.0.4
+2024-11-28 17:06:12.852+0100 [BROWSERLOCKOSX] [INFO] Secure delivery service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2024-11-28 17:06:14.357+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching logging service url :200
+2024-11-28 17:06:14.357+0100 [BROWSERLOCKOSX] [INFO] Browserlock logging service url is successfully fetched from SDS
+2024-11-28 17:06:14.358+0100 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=JHg8RX/9FGQm08PiiuM7fYbJebullU/plcq5wJZxVTHgn0zzKAbvJ6+CG2wDeawXtHws0BAXBpmyihQF/8DV1h9Weh62GXMXZr6nRLEWrMu3D4Q4NbQCBKoW58x/sH0veh2Ov1JSHL75GUW45BpsrHDFrwTGCTuSBVHXZC3NcnS7i61RqR9CWpDM1QCM5H8rNO6q1hA2Mh5/zr4HL/jcHMJVDCFeN4rOOJ2d8OTGRu59OzZc16wPDznopqQtD8Gwt5dqu5j/S1ToI/6geYX9ijWs4GEc/sRTc777F3Hz8fC1mhopjT+yypFFD+eubjjzjQp6bf8qG5+5mnv8vUAlBfy6M2LrKWSHInkNqYikzRvo9WbOHgjGoaPMc3ZM5G384rSPtxIOsADr/wGkg0yQAIvoHfhbWyTsV+mMdw==
+2024-11-28 17:06:15.233+0100 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2024-11-28 17:06:15.233+0100 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2024-11-28 17:06:15.261+0100 [BROWSERLOCKOSX] [INFO] JNI Env set!
+2024-11-28 17:06:15.264+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in System Test
+2024-11-28 17:06:15.265+0100 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 492907104
+2024-11-28 17:06:15.266+0100 [BROWSERLOCKOSX] [INFO] Provided registrationId: 492907104
+2024-11-28 17:06:15.267+0100 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=BRIGHTEST 
+2024-11-28 17:06:15.267+0100 [BROWSERLOCKOSX] [INFO] Received BL language: blLanguage=en-US
+2024-11-28 17:06:16.085+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2024-11-28 17:06:16.087+0100 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2024-11-28 17:06:16.099+0100 [BROWSERLOCKOSX] [INFO] Enable Swift Flag: enableSwift=true
+2024-11-28 17:06:16.099+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE hash mismatch: stopOnOnvueHashMismatch=false
+2024-11-28 17:06:16.099+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE process name mismatch: stopOnOnvueProcessNameMismatch=false
+2024-11-28 17:06:16.099+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE session invalid: stopOnOnvueSessionInvalid=false
+2024-11-28 17:06:16.099+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on Machine guid mismatch: stopOnMachineGuidMismatch=false
+2024-11-28 17:06:16.099+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on user name mismatch: stopOnUserNameMismatch=false
+2024-11-28 17:06:16.099+0100 [BROWSERLOCKOSX] [INFO] validate Certificate Expiry for Public Key Pinning in days=180
+2024-11-28 17:06:16.100+0100 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2024-11-28 17:06:16.100+0100 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2024-11-28 17:06:16.100+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on hash value mismatch violation: stopOnHashMismatch=true
+2024-11-28 17:06:16.100+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on shutdown file changed: stopOnShutdownFileChanged=true
+2024-11-28 17:06:16.100+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on VPN detection using maxmind: stopOnVpnAnonymousDetection=false
+2024-11-28 17:06:16.101+0100 [BROWSERLOCKOSX] [INFO] Log VPN detection details using maxmind: logAnonymousVpnDetection=true
+2024-11-28 17:06:16.147+0100 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 492907104, -C, BRIGHTEST, -ST, -L, -LN, EN-US, -U, HTTPS://CANDIDATELAUNCHST.ONVUE.COM/DELIVERY?SESSION_ID=41218377&ACCESS_CODE=648708034&LOCALE=EN-US&TOKEN=UNDEFINED]", url="https://candidatelaunchst.onvue.com/delivery?session_id=41218377&access_code=648708034&locale=en-US&token=undefined", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="BRIGHTEST", deliveryMode="op", validArgs=true
+2024-11-28 17:06:16.189+0100 [BROWSERLOCKOSX] [INFO] ChipType identified. chipType=Apple M1
+2024-11-28 17:06:16.776+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 17:06:16.781+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX 
+2024-11-28 17:06:16.781+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX
+2024-11-28 17:06:17.460+0100 [BROWSERLOCKOSX] [INFO] Delivery Config Response Code :200
+2024-11-28 17:06:17.462+0100 [BROWSERLOCKOSX] [INFO] Forensic Delivery Config is successfully fetched from SDS
+2024-11-28 17:06:17.465+0100 [BROWSERLOCKOSX] [INFO] VM Allowed flag value from forensics is vmAllowedForensic=false
+2024-11-28 17:06:17.466+0100 [BROWSERLOCKOSX] [INFO] Multiple Monitor Allowed flag value from forensics is multiMonitorAllowedForensic=false
+2024-11-28 17:06:17.466+0100 [BROWSERLOCKOSX] [INFO] VPN Allowed flag value from forensics is vpnAllowedForensic=false
+2024-11-28 17:06:17.466+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP Detection flag value from forensics is anonymousIPDetection=false
+2024-11-28 17:06:17.520+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2024-11-28 17:06:17.521+0100 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2024-11-28 17:06:17.521+0100 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2024-11-28 17:06:17.521+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2024-11-28 17:06:17.521+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2024-11-28 17:06:17.521+0100 [BROWSERLOCKOSX] [INFO] VPN configuration received from SDS will be applied for validation
+2024-11-28 17:06:17.521+0100 [BROWSERLOCKOSX] [INFO] VPN detection value is: vpnDetectConfig=true
+2024-11-28 17:06:17.521+0100 [BROWSERLOCKOSX] [INFO] USB mass storage detection value is: usbDetectConfig=true
+2024-11-28 17:06:17.521+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP logging value is: anonymousIPLogging=false
+2024-11-28 17:06:17.521+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP detection value is: anonymousIPDetection=false
+2024-11-28 17:06:17.835+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 17:06:17.839+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST 
+2024-11-28 17:06:17.840+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST
+2024-11-28 17:06:18.001+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching client minimum version :200
+2024-11-28 17:06:18.001+0100 [BROWSERLOCKOSX] [INFO] Client minimum version is successfully fetched from SDS
+2024-11-28 17:06:18.002+0100 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required, minimumVersion=2402
+2024-11-28 17:06:18.002+0100 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2411.1.2
+2024-11-28 17:06:18.094+0100 [BROWSERLOCKOSX] [INFO] Main screen name: Built-in Retina Display
+2024-11-28 17:06:18.095+0100 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2024-11-28 17:06:18.980+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 17:06:18.985+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX 
+2024-11-28 17:06:18.987+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX
+2024-11-28 17:06:19.920+0100 [BROWSERLOCKOSX] [INFO] Fetch Forensic Pal Response Code :200
+2024-11-28 17:06:19.921+0100 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2024-11-28 17:06:19.921+0100 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1248 ms
+2024-11-28 17:06:20.078+0100 [BROWSERLOCKOSX] [INFO] Starting Event Listener
+2024-11-28 17:06:20.138+0100 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2024-11-28 17:06:20.301+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 17:06:20.302+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: grammarly desktop, universalaccessauthwarn, osduihelper, textinputswitcher, sirincservice, universal control, telegram, wine64, usernotificationcenter, surfshark, 1password, jetbrains toolbox, spotlight, finder, zoom.us, opera, cursoruiviewservice, wallpaper, notification center, control center, 
+2024-11-28 17:06:20.304+0100 [BROWSERLOCKOSX] [INFO] Hide dock
+2024-11-28 17:06:20.440+0100 [BROWSERLOCKOSX] [INFO] Starting input handler
+2024-11-28 17:06:20.446+0100 [BROWSERLOCKOSX] [INFO] Did we load the core graphics bundle? true
+2024-11-28 17:06:20.455+0100 [BROWSERLOCKOSX] [INFO] Setting 176 HotKeys to enabled-status: false
+2024-11-28 17:06:20.527+0100 [BROWSERLOCKOSX] [INFO] Hot corner settings found at startup: Optional("[\"wvous-tl-corner\":0,\"wvous-br-corner\":14,\"wvous-bl-corner\":0,\"wvous-tr-corner\":0]")
+2024-11-28 17:06:21.823+0100 [BROWSERLOCKOSX] [INFO] Notification center disabled
+2024-11-28 17:06:21.827+0100 [BROWSERLOCKOSX] [INFO] Requested screen count from system: maxDisplays=1
+2024-11-28 17:06:21.828+0100 [BROWSERLOCKOSX] [INFO] Showing main display: mainDisplayId=1
+2024-11-28 17:06:21.941+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 17:06:21.941+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 17:06:21.942+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: dock, dock, 
+2024-11-28 17:06:21.943+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: dock, dock, 
+2024-11-28 17:06:21.945+0100 [BROWSERLOCKOSX] [INFO] Displaying Browser Loading dialog
+2024-11-28 17:06:23.198+0100 [BROWSERLOCKOSX] [INFO] MachineGuid=0cd52d14-461a-58bf-bd60-3631842e0e64
+2024-11-28 17:06:23.220+0100 [BROWSERLOCKOSX] [INFO] Starting the SRE application
+2024-11-28 17:06:23.221+0100 [BROWSERLOCKOSX] [INFO] SRE launcher object: aM@4116a7ed
+2024-11-28 17:06:36.998+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 17:06:37.000+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: notification center, 
+2024-11-28 17:07:16.522+0100 [BROWSERLOCKOSX] [INFO] System information: name=macOS, version=15.1.1, arch=x86_64
+2024-11-28 17:07:16.529+0100 [BROWSERLOCKOSX] [INFO] Stats (memory in kB): processors=8, totalMemory=41984.0, freeMemory=15054.9453125, memoryUsage=26929.0
+2024-11-28 17:07:16.944+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="oahd-helper", cpuPercent=92.2
+2024-11-28 17:07:16.946+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Pearson VUE Browser Lock", cpuPercent=28.2
+2024-11-28 17:07:16.946+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="OnVUE Helper (Renderer)", cpuPercent=21.2
+2024-11-28 17:07:16.946+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="OnVUE Helper (Plugin)", cpuPercent=8.5
+2024-11-28 17:07:16.946+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="MessagesBlastDoorService", cpuPercent=6.5
+2024-11-28 17:07:16.946+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="OnVUE Helper (Renderer)", cpuPercent=6.3
+2024-11-28 17:07:16.947+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="homed", cpuPercent=4.9
+2024-11-28 17:07:16.947+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="WindowServer", cpuPercent=4.9
+2024-11-28 17:07:16.947+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="ecosystemanalyticsd", cpuPercent=4.1
+2024-11-28 17:07:16.947+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="head", cpuPercent=3.6
+2024-11-28 17:07:16.947+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="appleh13camerad", cpuPercent=3.3
+2024-11-28 17:07:16.947+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="sh", cpuPercent=3.1
+2024-11-28 17:07:16.948+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="coreaudiod", cpuPercent=3.0
+2024-11-28 17:07:16.957+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="com.apple.DriverKit-AppleBCMWLAN", cpuPercent=2.4
+2024-11-28 17:07:43.335+0100 [BROWSERLOCKOSX] [INFO] User Agent from Browser Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Pearson VUE Browser Lock_mac/2411.1.2
+2024-11-28 17:07:43.794+0100 [BROWSERLOCKOSX] [INFO] Load SRE url: https://candidatelaunchst.onvue.com/delivery?session_id=41218377&access_code=648708034&locale=en-US&token=undefined
+2024-11-28 17:07:46.714+0100 [BROWSERLOCKOSX] [INFO] Determining if window should be hidden. sreBrowserType=STANDARD, isShowScoreReport=false, isPrimaryScoreReportWindow=false
+2024-11-28 17:07:47.258+0100 [BROWSERLOCKOSX] [INFO] Send notification to Browserlock
+2024-11-28 17:07:47.261+0100 [BROWSERLOCKOSX] [INFO] Received the notification event to close the loading view dialog
+2024-11-28 17:07:47.295+0100 [BROWSERLOCKOSX] [INFO] Total number of external USB devices detected are: usbKeyboard=0, usbMouse=0, usbReceiver=0
+2024-11-28 17:07:47.536+0100 [BROWSERLOCKOSX] [INFO] Closing Browser Loading dialog
+2024-11-28 17:07:47.843+0100 [BROWSERLOCKOSX] [INFO] Loading view dialog is closed successfully
+2024-11-28 17:07:49.155+0100 [BROWSERLOCKOSX] [INFO] Total number of bluetooth devices detected are: bluetoothKeyboard=0, bluetoothMouse=0
+2024-11-28 17:07:51.217+0100 [BROWSERLOCKOSX] [INFO] Frame load finished: newUrl="https://candidatelaunchst.onvue.com/delivery?session_id=41218377&access_code=648708034&locale=en-US&token=undefined", jxBrowser="859194405", browserTitle="OnVUE"
+2024-11-28 17:07:51.219+0100 [BROWSERLOCKOSX] [INFO] Loading new url="https://candidatelaunchst.onvue.com/delivery?session_id=41218377&access_code=648708034&locale=en-US&token=undefined"
+2024-11-28 17:07:51.219+0100 [BROWSERLOCKOSX] [INFO] Browser loading finished
+2024-11-28 17:07:51.700+0100 [BROWSERLOCKOSX] [INFO] Total time taken to calculate hash for: registrationID=492907104, totalHashGenerationTime=4409 ms
+2024-11-28 17:07:51.701+0100 [BROWSERLOCKOSX] [INFO] Report processes/apps to SDS on start of BrowserLock
+2024-11-28 17:07:51.723+0100 [BROWSERLOCKOSX] [INFO] Request Object sent: reportProcesses=RegistrationProcessDetails{registrationId='492907104', deliveryMethod=bl, deliveryMode=op, deliveryDate=Thu Nov 28 17:07:51 CET 2024, processLogs=[ProcessLog{processId='33006', processName='siri', executableName='siri', folderName='/System/Library/CoreServices/Siri.app/Contents/MacOS/Siri', hashCode='c398684bf3f07d670b9c42f0960274b0498e467605c92cb36dac1fc67c0b2f22', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='6198', processName='telegram', executableName='telegram', folderName='/Applications/Telegram.app/Contents/MacOS/Telegram', hashCode='1acd8af580b3ed82c7203ef4b786a235c1a815b660bb7da1365570d4fdaab818', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='1746', processName='surfshark', executableName='surfshark', folderName='/Applications/Surfshark.app/Contents/MacOS/Surfshark', hashCode='3abaccc479e92ba9d4b0cbf97b3b1254bfb42b9c0343a71d4bd3491023bf238c', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='1626', processName='spotlight', executableName='spotlight', folderName='/System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight', hashCode='ebbc71175e5bbcfb5002cb5219c885a0a606d8c64a049e036253ed1a52999b9a', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='34153', processName='screentimeagent', executableName='screentimeagent', folderName='/System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent', hashCode='79e5fefc1e9f7f92c42368fe09bbcbce9d1ca60f571d95bcf510324bdda96d38', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33690', processName='onvue helper (gp', executableName='onvue helper (gp', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (GPU).app/Contents/MacOS/OnVUE Helper (GPU)', hashCode='ce22b4e7eb63caed2de6a51fb36fa9dd031e4d280cfe6d76fba4cb1d09f6ab6f', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33736', processName='onvue helper (re', executableName='onvue helper (re', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (Renderer).app/Contents/MacOS/OnVUE Helper (Renderer)', hashCode='b7dede7ce42e80a7b3eda97dae1aa769002558d656479878422c8a330464d35c', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1621', processName='dock', executableName='dock', folderName='/System/Library/CoreServices/Dock.app/Contents/MacOS/Dock', hashCode='11547c3f937a2fb48c2e3c39cb2fe6ed345207b7ac3c42505f78247ca98610ad', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='33653', processName='onvue', executableName='onvue', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/MacOS/OnVUE', hashCode='d275bf010468e94a2f406cdf24d28c702e2f0d48976a75aa3ee94fd3098415cc', processCategory='allowed', actionStatusCode='none', visibleInterface='true', processType=p}, ProcessLog{processId='1618', processName='opera', executableName='opera', folderName='/Applications/Opera.app/Contents/MacOS/Opera', hashCode='e489ff49a66eb0c4df17f73158cbdd4446c3c84b1bc3ad6dc6130d4013cde03f', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='33419', processName='osduihelper', executableName='osduihelper', folderName='/System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper', hashCode='8ab485110232a9f339aa3e4360b8ee6210e329ab613a150a5e9bab1c1157be8e', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='1714', processName='jetbrains toolbox', executableName='jetbrains toolbox', folderName='/Applications/JetBrains Toolbox.app/Contents/MacOS/jetbrains-toolbox', hashCode='788f1f8189ff6016584b3b8c6d0f888207eb00d4c301cbed292c55f4c44f6b85', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='1545', processName='cursoruiviewservice', executableName='cursoruiviewservice', folderName='/System/Library/PrivateFrameworks/TextInputUIMacHelper.framework/Versions/A/XPCServices/CursorUIViewService.xpc/Contents/MacOS/CursorUIViewService', hashCode='4d0c535da34647303da41407af6472052d86858f28b2dfa66553c2764cc15c3a', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='914', processName='control strip', executableName='control strip', folderName='/System/Library/CoreServices/ControlStrip.app/Contents/MacOS/ControlStrip', hashCode='7f1d8fd1e85bb60498b23ac2676c34d6bdd3aa7d81b64eb111611287ecc30b71', processCategory='allowed', actionStatusCode='none', visibleInterface='true', processType=p}, ProcessLog{processId='32989', processName='universal control', executableName='universal control', folderName='/System/Library/CoreServices/UniversalControl.app/Contents/MacOS/UniversalControl', hashCode='1e08bcb3f6df0e02cc57b7fa18837e7201ec6264767c611eff8965c1c812d85a', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='0', processName='kernel_task', executableName='kernel_task', folderName='/sbin/launchd', hashCode='d5fe28c4c1c3df4e04b8a05c10837295fc9720230495852c1dbe24158477e789', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='576', processName='thermalmonitord', executableName='thermalmonitord', folderName='/usr/libexec/thermalmonitord', hashCode='b3b0f7001f5e997ef7559867176f7441aece4efff38bdb586b46ee2bb18de66e', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1622', processName='systemuiserver', executableName='systemuiserver', folderName='/System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer', hashCode='2d7775b56901c240b92fc5d5c28c5dfb01348d7681100ce861886e8b7c244e63', processCategory='allowed', actionStatusCode='none', visibleInterface='true', processType=p}, ProcessLog{processId='1623', processName='finder', executableName='finder', folderName='/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder', hashCode='f6f2ff9e3dc16485002d895fc7ea1db62e7926e272eb7ec6fc2215a2ff216c7a', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='966', processName='sharedfilelistd', executableName='sharedfilelistd', folderName='/System/Library/CoreServices/sharedfilelistd', hashCode='4f6af222af23d480fa46324b098d48ee14a4586c1e6606a1036f4f778c41b0f0', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1', processName='launchd', executableName='launchd', folderName='/sbin/launchd', hashCode='d5fe28c4c1c3df4e04b8a05c10837295fc9720230495852c1dbe24158477e789', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='5808', processName='wine64', executableName='wine64', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/winetemp-96751379-39552-1708018860-0/wine64', hashCode='9113f61c8444724462814555071ef8831605df20999b002f2eb7c69416719c14', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='1118', processName='wallpaper', executableName='wallpaper', folderName='/System/Library/CoreServices/WallpaperAgent.app/Contents/MacOS/WallpaperAgent', hashCode='f0ae218276936c1f91ade06db681b7d7d7924cc2500a9d072d0517770bfeb9ec', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='24280', processName='com.apple.pressandhold', executableName='com.apple.pressandhold', folderName='/System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension', hashCode='3b43ec390c8b3b32051b9118c710b5562950e41eca4c79ef9e4ab50cacc261e5', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33605', processName='coreservicesuiagent', executableName='coreservicesuiagent', folderName='/System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent', hashCode='d9d3c9860550aa6f7869ef4bfd2ee7767480dc14addc6c7fb00d2eb9e7e2dc61', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1036', processName='notification center', executableName='notification center', folderName='/System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter', hashCode='30c4d8875595cc463fd71c2f7546b2d9f4106132f92bd6d25aba54e8d5892098', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='1712', processName='textinputmenuagent', executableName='textinputmenuagent', folderName='/System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent', hashCode='a3b004506d897de79f08c5bd824d893e3dc4b1a9182ebfa8f042e0fbea68aea9', processCategory='allowed', actionStatusCode='none', visibleInterface='true', processType=p}, ProcessLog{processId='999', processName='control center', executableName='control center', folderName='/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter', hashCode='f9aff80a42070667bb5de9a873190dfa0e2fcff6f8bc23f22a62757d92902e95', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='607', processName='windowserver', executableName='windowserver', folderName='/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/WindowServer', hashCode='6df277d45e949615043781d678301f1e4d7e2b954ed69a1ec1de804a1df15987', processCategory='allowed', actionStatusCode='none', visibleInterface='true', processType=p}, ProcessLog{processId='604', processName='airplayxpchelper', executableName='airplayxpchelper', folderName='/usr/libexec/AirPlayXPCHelper', hashCode='d970f59f6d61631da8ee717a89b50141daeb4d8d0a1c3ac34e49e863fa2d391a', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1620', processName='zoom.us', executableName='zoom.us', folderName='/Users/HP/Applications/zoom.us.app/Contents/MacOS/zoom.us', hashCode='30101326b2aceaf59ee3d1617f2f8617ec026e79efed199ca60155bcdd94e206', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='1954', processName='usernotificationcenter', executableName='usernotificationcenter', folderName='/System/Library/CoreServices/UserNotificationCenter.app/Contents/MacOS/UserNotificationCenter', hashCode='974f302f2136c249159f1d4d9218b46d90eeea60ec05555d99a3fd411158ca11', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='33734', processName='onvue helper', executableName='onvue helper', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper.app/Contents/MacOS/OnVUE Helper', hashCode='ad0ab178d363a3531ceb68fe78998ede05cbef178956053fb8cd28aecc6260bd', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='611', processName='loginwindow', executableName='loginwindow', folderName='/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow', hashCode='ed12bdeca7439139fc10f755671a7ea0c388bd9770bfbf7b1f5e77c21b4ca2b4', processCategory='allowed', actionStatusCode='none', visibleInterface='true', processType=p}, ProcessLog{processId='32467', processName='corelocationagent', executableName='corelocationagent', folderName='/System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent', hashCode='c4fd3c12bb884063644ca69cf4c3d42939588a0deab5ede89348de56951c2515', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='34237', processName='grammarly desktop', executableName='grammarly desktop', folderName='/Applications/Grammarly Desktop.app/Contents/MacOS/Grammarly Desktop', hashCode='c2422f3378b426098fc8cd4875f480a46720fab9c01e7ead5a6480145c0a8be9', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='34308', processName='onvue helper (plugin)', executableName='onvue helper (plugin)', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (Plugin).app/Contents/MacOS/OnVUE Helper (Plugin)', hashCode='6551fc7f2e8702383bad882b8522ff10c70a420764230e18cb8917454630f2c9', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='29676', processName='distnoted', executableName='distnoted', folderName='/usr/sbin/distnoted', hashCode='c76a48a558c78078d812c28b6c118ba35a433991863e7ac28907d2970fdffd10', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33701', processName='universalaccessauthwarn', executableName='universalaccessauthwarn', folderName='/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn', hashCode='3ba5fa59beddae728131a4240a06691cc4628aa3c6fcf30fe14f344510ff5c86', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='33036', processName='sirincservice', executableName='sirincservice', folderName='/System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService', hashCode='30bc4050538cee94d36317b80a859a0abeecbe61c4fc1ec81d86d26a60dba2e1', processCategory='paused', actionStatusCode='paused', visibleInterface='false', processType=p}, ProcessLog{processId='1722', processName='1password', executableName='1password', folderName='/Applications/1Password.app/Contents/MacOS/1Password', hashCode='9c2b1f52371b9a054e5068b7a65fd1d227e7cb68fd7f2cae8df2bfa1959f1291', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}, ProcessLog{processId='24320', processName='emojifunctionrowim', executableName='emojifunctionrowim', folderName='/System/Library/Input Methods/EmojiFunctionRowIM.app/Contents/PlugIns/EmojiFunctionRowIM_Extension.appex/Contents/MacOS/EmojiFunctionRowIM_Extension', hashCode='fe9e4dde90bb62a46c9d93e746dfb74bed43b835accfb2220b10a3567284b7a0', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33202', processName='textinputswitcher', executableName='textinputswitcher', folderName='/System/Library/CoreServices/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher', hashCode='05dc8aa7e9bed8a46440c6236a0709a5b6d3493f5b56af470358b1111cbfae38', processCategory='paused', actionStatusCode='paused', visibleInterface='true', processType=p}]', workstations=[WorkstationInfo{sessionStart='Thu Nov 28 17:06:15 CET 2024', name='Damilola Samuel MacBook Pro', pwid='FVFFHGZJQ05D}]', operatingSystem='mac', processProfileSnapShotHashCode='2dd64ae6ee96d36dd3bd1f0cb6b4ae02dbe9c2c3169b98c333f351270376cf30', clientCode='BRIGHTEST', sessionId='e6139907-f694-4e2a-ac0d-0cc5ffd607ee'}, applicationName=BROWSERLOCKOSX, registrationId=492907104
+2024-11-28 17:07:54.485+0100 [BROWSERLOCKOSX] [INFO] Process Log Response Code :200
+2024-11-28 17:07:54.486+0100 [BROWSERLOCKOSX] [INFO] Processes/Services has been successfully sent to SDS
+2024-11-28 17:08:03.158+0100 [BROWSERLOCKOSX] [INFO] Frame load finished: newUrl="https://abe-prd-1.pvue2.com/st2/driver/startDelivery?sessionUUID=a0101db0-3313-453a-8cdc-337ed9b790ba", jxBrowser="859194405", browserTitle="Pearson VUE test content"
+2024-11-28 17:08:03.184+0100 [BROWSERLOCKOSX] [INFO] Loading new url="https://abe-prd-1.pvue2.com/st2/driver/startDelivery?sessionUUID=a0101db0-3313-453a-8cdc-337ed9b790ba"
+2024-11-28 17:08:03.218+0100 [BROWSERLOCKOSX] [INFO] OnURIChange newUri="https://abe-prd-1.pvue2.com/st2/driver/startDelivery?sessionUUID=a0101db0-3313-453a-8cdc-337ed9b790ba"
+2024-11-28 17:08:04.619+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 17:08:04.701+0100 [BROWSERLOCKOSX] [INFO] Driver Current Public Keys Match for URL: https://abe-prd-1.pvue2.com/st2/driver/startDelivery?sessionUUID=a0101db0-3313-453a-8cdc-337ed9b790ba 
+2024-11-28 17:08:04.711+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://abe-prd-1.pvue2.com/st2/driver/startDelivery?sessionUUID=a0101db0-3313-453a-8cdc-337ed9b790ba
+2024-11-28 17:08:04.712+0100 [BROWSERLOCKOSX] [INFO] Browser loading finished
+2024-11-28 17:21:16.253+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="ecosystemanalyticsd", cpuPercent=44.4
+2024-11-28 17:21:16.285+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="trustd", cpuPercent=29.6
+2024-11-28 17:21:16.317+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="OnVUE Helper (Renderer)", cpuPercent=12.7
+2024-11-28 17:21:16.348+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="WindowServer", cpuPercent=11.9
+2024-11-28 17:21:16.351+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Pearson VUE Browser Lock", cpuPercent=8.8
+2024-11-28 17:21:16.358+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="OnVUE Helper (Plugin)", cpuPercent=7.1
+2024-11-28 17:21:16.360+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="OnVUE Helper (Renderer)", cpuPercent=3.8
+2024-11-28 17:21:16.361+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="appleh13camerad", cpuPercent=3.7
+2024-11-28 17:21:16.361+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="coreaudiod", cpuPercent=3.4
+2024-11-28 17:21:16.361+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="winedevice.exe", cpuPercent=2.3
+2024-11-28 17:21:16.361+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Opera Helper (Renderer)", cpuPercent=2.2
+2024-11-28 17:21:16.361+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="com.apple.DriverKit-AppleBCMWLAN", cpuPercent=2.1
+2024-11-28 17:21:16.362+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="trustd", cpuPercent=2.0
+2024-11-28 17:21:16.363+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="oahd", cpuPercent=1.8
+2024-11-28 17:22:51.833+0100 [BROWSERLOCKOSX] [INFO] Request Object sent: reportProcesses=RegistrationProcessDetails{registrationId='492907104', deliveryMethod=bl, deliveryMode=op, deliveryDate=Thu Nov 28 17:22:51 CET 2024, processLogs=[ProcessLog{processId='33006', processName='siri', executableName='siri', folderName='/System/Library/CoreServices/Siri.app/Contents/MacOS/Siri', hashCode='c398684bf3f07d670b9c42f0960274b0498e467605c92cb36dac1fc67c0b2f22', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='34153', processName='screentimeagent', executableName='screentimeagent', folderName='/System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent', hashCode='79e5fefc1e9f7f92c42368fe09bbcbce9d1ca60f571d95bcf510324bdda96d38', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33690', processName='onvue helper (gp', executableName='onvue helper (gp', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (GPU).app/Contents/MacOS/OnVUE Helper (GPU)', hashCode='ce22b4e7eb63caed2de6a51fb36fa9dd031e4d280cfe6d76fba4cb1d09f6ab6f', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33736', processName='onvue helper (re', executableName='onvue helper (re', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (Renderer).app/Contents/MacOS/OnVUE Helper (Renderer)', hashCode='b7dede7ce42e80a7b3eda97dae1aa769002558d656479878422c8a330464d35c', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33653', processName='onvue', executableName='onvue', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/MacOS/OnVUE', hashCode='d275bf010468e94a2f406cdf24d28c702e2f0d48976a75aa3ee94fd3098415cc', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='914', processName='control strip', executableName='control strip', folderName='/System/Library/CoreServices/ControlStrip.app/Contents/MacOS/ControlStrip', hashCode='7f1d8fd1e85bb60498b23ac2676c34d6bdd3aa7d81b64eb111611287ecc30b71', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='0', processName='kernel_task', executableName='kernel_task', folderName='/sbin/launchd', hashCode='d5fe28c4c1c3df4e04b8a05c10837295fc9720230495852c1dbe24158477e789', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='576', processName='thermalmonitord', executableName='thermalmonitord', folderName='/usr/libexec/thermalmonitord', hashCode='b3b0f7001f5e997ef7559867176f7441aece4efff38bdb586b46ee2bb18de66e', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1622', processName='systemuiserver', executableName='systemuiserver', folderName='/System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer', hashCode='2d7775b56901c240b92fc5d5c28c5dfb01348d7681100ce861886e8b7c244e63', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='966', processName='sharedfilelistd', executableName='sharedfilelistd', folderName='/System/Library/CoreServices/sharedfilelistd', hashCode='4f6af222af23d480fa46324b098d48ee14a4586c1e6606a1036f4f778c41b0f0', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1', processName='launchd', executableName='launchd', folderName='/sbin/launchd', hashCode='d5fe28c4c1c3df4e04b8a05c10837295fc9720230495852c1dbe24158477e789', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33605', processName='coreservicesuiagent', executableName='coreservicesuiagent', folderName='/System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent', hashCode='d9d3c9860550aa6f7869ef4bfd2ee7767480dc14addc6c7fb00d2eb9e7e2dc61', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='24280', processName='com.apple.pressandhold', executableName='com.apple.pressandhold', folderName='/System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension', hashCode='3b43ec390c8b3b32051b9118c710b5562950e41eca4c79ef9e4ab50cacc261e5', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1712', processName='textinputmenuagent', executableName='textinputmenuagent', folderName='/System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent', hashCode='a3b004506d897de79f08c5bd824d893e3dc4b1a9182ebfa8f042e0fbea68aea9', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='607', processName='windowserver', executableName='windowserver', folderName='/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/WindowServer', hashCode='6df277d45e949615043781d678301f1e4d7e2b954ed69a1ec1de804a1df15987', processCategory='allowed', actionStatusCode='none', visibleInterface='true', processType=p}, ProcessLog{processId='604', processName='airplayxpchelper', executableName='airplayxpchelper', folderName='/usr/libexec/AirPlayXPCHelper', hashCode='d970f59f6d61631da8ee717a89b50141daeb4d8d0a1c3ac34e49e863fa2d391a', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33734', processName='onvue helper', executableName='onvue helper', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper.app/Contents/MacOS/OnVUE Helper', hashCode='ad0ab178d363a3531ceb68fe78998ede05cbef178956053fb8cd28aecc6260bd', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='611', processName='loginwindow', executableName='loginwindow', folderName='/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow', hashCode='ed12bdeca7439139fc10f755671a7ea0c388bd9770bfbf7b1f5e77c21b4ca2b4', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='32467', processName='corelocationagent', executableName='corelocationagent', folderName='/System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent', hashCode='c4fd3c12bb884063644ca69cf4c3d42939588a0deab5ede89348de56951c2515', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='29676', processName='distnoted', executableName='distnoted', folderName='/usr/sbin/distnoted', hashCode='c76a48a558c78078d812c28b6c118ba35a433991863e7ac28907d2970fdffd10', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='34308', processName='onvue helper (plugin)', executableName='onvue helper (plugin)', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (Plugin).app/Contents/MacOS/OnVUE Helper (Plugin)', hashCode='6551fc7f2e8702383bad882b8522ff10c70a420764230e18cb8917454630f2c9', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='24320', processName='emojifunctionrowim', executableName='emojifunctionrowim', folderName='/System/Library/Input Methods/EmojiFunctionRowIM.app/Contents/PlugIns/EmojiFunctionRowIM_Extension.appex/Contents/MacOS/EmojiFunctionRowIM_Extension', hashCode='fe9e4dde90bb62a46c9d93e746dfb74bed43b835accfb2220b10a3567284b7a0', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}]', workstations=[WorkstationInfo{sessionStart='Thu Nov 28 17:06:15 CET 2024', name='Damilola Samuel MacBook Pro', pwid='FVFFHGZJQ05D}]', operatingSystem='mac', processProfileSnapShotHashCode='2dd64ae6ee96d36dd3bd1f0cb6b4ae02dbe9c2c3169b98c333f351270376cf30', clientCode='BRIGHTEST', sessionId='e6139907-f694-4e2a-ac0d-0cc5ffd607ee'}, applicationName=BROWSERLOCKOSX, registrationId=492907104
+2024-11-28 17:23:13.885+0100 [BROWSERLOCKOSX] [INFO] Process Log Response Code :200
+2024-11-28 17:23:13.931+0100 [BROWSERLOCKOSX] [INFO] Processes/Services has been successfully sent to SDS
+2024-11-28 17:29:46.160+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:29:46.367+0100 [BROWSERLOCKOSX] [INFO] Detected VPN during exam, shutting down
+2024-11-28 17:29:46.377+0100 [BROWSERLOCKOSX] [INFO] Displaying VPN Connected message dialog
+2024-11-28 17:30:08.586+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:30:30.519+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:30:52.453+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:31:14.393+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:31:36.316+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:31:58.192+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:32:20.055+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:32:41.929+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:33:03.915+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:33:25.785+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:33:47.584+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:34:09.389+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:34:31.440+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:34:53.433+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:35:15.225+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:35:37.194+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:35:59.576+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:36:21.661+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:36:43.547+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:37:05.459+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:37:27.577+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:37:49.499+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:37:51.744+0100 [BROWSERLOCKOSX] [INFO] Request Object sent: reportProcesses=RegistrationProcessDetails{registrationId='492907104', deliveryMethod=bl, deliveryMode=op, deliveryDate=Thu Nov 28 17:37:51 CET 2024, processLogs=[ProcessLog{processId='33006', processName='siri', executableName='siri', folderName='/System/Library/CoreServices/Siri.app/Contents/MacOS/Siri', hashCode='c398684bf3f07d670b9c42f0960274b0498e467605c92cb36dac1fc67c0b2f22', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='34153', processName='screentimeagent', executableName='screentimeagent', folderName='/System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent', hashCode='79e5fefc1e9f7f92c42368fe09bbcbce9d1ca60f571d95bcf510324bdda96d38', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33690', processName='onvue helper (gp', executableName='onvue helper (gp', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (GPU).app/Contents/MacOS/OnVUE Helper (GPU)', hashCode='ce22b4e7eb63caed2de6a51fb36fa9dd031e4d280cfe6d76fba4cb1d09f6ab6f', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33736', processName='onvue helper (re', executableName='onvue helper (re', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (Renderer).app/Contents/MacOS/OnVUE Helper (Renderer)', hashCode='b7dede7ce42e80a7b3eda97dae1aa769002558d656479878422c8a330464d35c', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33653', processName='onvue', executableName='onvue', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/MacOS/OnVUE', hashCode='d275bf010468e94a2f406cdf24d28c702e2f0d48976a75aa3ee94fd3098415cc', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='914', processName='control strip', executableName='control strip', folderName='/System/Library/CoreServices/ControlStrip.app/Contents/MacOS/ControlStrip', hashCode='7f1d8fd1e85bb60498b23ac2676c34d6bdd3aa7d81b64eb111611287ecc30b71', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='0', processName='kernel_task', executableName='kernel_task', folderName='/sbin/launchd', hashCode='d5fe28c4c1c3df4e04b8a05c10837295fc9720230495852c1dbe24158477e789', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='576', processName='thermalmonitord', executableName='thermalmonitord', folderName='/usr/libexec/thermalmonitord', hashCode='b3b0f7001f5e997ef7559867176f7441aece4efff38bdb586b46ee2bb18de66e', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1622', processName='systemuiserver', executableName='systemuiserver', folderName='/System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer', hashCode='2d7775b56901c240b92fc5d5c28c5dfb01348d7681100ce861886e8b7c244e63', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='966', processName='sharedfilelistd', executableName='sharedfilelistd', folderName='/System/Library/CoreServices/sharedfilelistd', hashCode='4f6af222af23d480fa46324b098d48ee14a4586c1e6606a1036f4f778c41b0f0', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1', processName='launchd', executableName='launchd', folderName='/sbin/launchd', hashCode='d5fe28c4c1c3df4e04b8a05c10837295fc9720230495852c1dbe24158477e789', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33605', processName='coreservicesuiagent', executableName='coreservicesuiagent', folderName='/System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent', hashCode='d9d3c9860550aa6f7869ef4bfd2ee7767480dc14addc6c7fb00d2eb9e7e2dc61', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='24280', processName='com.apple.pressandhold', executableName='com.apple.pressandhold', folderName='/System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension', hashCode='3b43ec390c8b3b32051b9118c710b5562950e41eca4c79ef9e4ab50cacc261e5', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1712', processName='textinputmenuagent', executableName='textinputmenuagent', folderName='/System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent', hashCode='a3b004506d897de79f08c5bd824d893e3dc4b1a9182ebfa8f042e0fbea68aea9', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='607', processName='windowserver', executableName='windowserver', folderName='/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/WindowServer', hashCode='6df277d45e949615043781d678301f1e4d7e2b954ed69a1ec1de804a1df15987', processCategory='allowed', actionStatusCode='none', visibleInterface='true', processType=p}, ProcessLog{processId='604', processName='airplayxpchelper', executableName='airplayxpchelper', folderName='/usr/libexec/AirPlayXPCHelper', hashCode='d970f59f6d61631da8ee717a89b50141daeb4d8d0a1c3ac34e49e863fa2d391a', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33734', processName='onvue helper', executableName='onvue helper', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper.app/Contents/MacOS/OnVUE Helper', hashCode='ad0ab178d363a3531ceb68fe78998ede05cbef178956053fb8cd28aecc6260bd', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='611', processName='loginwindow', executableName='loginwindow', folderName='/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow', hashCode='ed12bdeca7439139fc10f755671a7ea0c388bd9770bfbf7b1f5e77c21b4ca2b4', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='32467', processName='corelocationagent', executableName='corelocationagent', folderName='/System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent', hashCode='c4fd3c12bb884063644ca69cf4c3d42939588a0deab5ede89348de56951c2515', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='34308', processName='onvue helper (plugin)', executableName='onvue helper (plugin)', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (Plugin).app/Contents/MacOS/OnVUE Helper (Plugin)', hashCode='6551fc7f2e8702383bad882b8522ff10c70a420764230e18cb8917454630f2c9', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='29676', processName='distnoted', executableName='distnoted', folderName='/usr/sbin/distnoted', hashCode='c76a48a558c78078d812c28b6c118ba35a433991863e7ac28907d2970fdffd10', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='24320', processName='emojifunctionrowim', executableName='emojifunctionrowim', folderName='/System/Library/Input Methods/EmojiFunctionRowIM.app/Contents/PlugIns/EmojiFunctionRowIM_Extension.appex/Contents/MacOS/EmojiFunctionRowIM_Extension', hashCode='fe9e4dde90bb62a46c9d93e746dfb74bed43b835accfb2220b10a3567284b7a0', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}]', workstations=[WorkstationInfo{sessionStart='Thu Nov 28 17:06:15 CET 2024', name='Damilola Samuel MacBook Pro', pwid='FVFFHGZJQ05D}]', operatingSystem='mac', processProfileSnapShotHashCode='2dd64ae6ee96d36dd3bd1f0cb6b4ae02dbe9c2c3169b98c333f351270376cf30', clientCode='BRIGHTEST', sessionId='e6139907-f694-4e2a-ac0d-0cc5ffd607ee'}, applicationName=BROWSERLOCKOSX, registrationId=492907104
+2024-11-28 17:37:53.417+0100 [BROWSERLOCKOSX] [INFO] Process Log Response Code :200
+2024-11-28 17:37:53.419+0100 [BROWSERLOCKOSX] [INFO] Processes/Services has been successfully sent to SDS
+2024-11-28 17:38:11.448+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:38:33.219+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:38:55.045+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:39:16.906+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:39:38.909+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:40:00.719+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:40:22.521+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:40:44.195+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:41:06.039+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:41:27.902+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:41:49.804+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:42:11.619+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:42:33.476+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:42:55.342+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:43:17.303+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:43:39.026+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:44:00.815+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:44:22.587+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:44:44.288+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:45:06.025+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:45:27.751+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:45:49.490+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:46:11.546+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:46:34.023+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:46:56.218+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:47:18.392+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:47:40.615+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:48:02.893+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:48:25.124+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:48:47.277+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:49:09.435+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:49:31.807+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:49:53.934+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:50:16.110+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:50:38.241+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:51:00.604+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:51:27.787+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:51:50.874+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:52:14.821+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:52:38.505+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:52:51.750+0100 [BROWSERLOCKOSX] [INFO] Request Object sent: reportProcesses=RegistrationProcessDetails{registrationId='492907104', deliveryMethod=bl, deliveryMode=op, deliveryDate=Thu Nov 28 17:52:51 CET 2024, processLogs=[ProcessLog{processId='33006', processName='siri', executableName='siri', folderName='/System/Library/CoreServices/Siri.app/Contents/MacOS/Siri', hashCode='c398684bf3f07d670b9c42f0960274b0498e467605c92cb36dac1fc67c0b2f22', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='34153', processName='screentimeagent', executableName='screentimeagent', folderName='/System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent', hashCode='79e5fefc1e9f7f92c42368fe09bbcbce9d1ca60f571d95bcf510324bdda96d38', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33690', processName='onvue helper (gp', executableName='onvue helper (gp', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (GPU).app/Contents/MacOS/OnVUE Helper (GPU)', hashCode='ce22b4e7eb63caed2de6a51fb36fa9dd031e4d280cfe6d76fba4cb1d09f6ab6f', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33736', processName='onvue helper (re', executableName='onvue helper (re', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (Renderer).app/Contents/MacOS/OnVUE Helper (Renderer)', hashCode='b7dede7ce42e80a7b3eda97dae1aa769002558d656479878422c8a330464d35c', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33653', processName='onvue', executableName='onvue', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/MacOS/OnVUE', hashCode='d275bf010468e94a2f406cdf24d28c702e2f0d48976a75aa3ee94fd3098415cc', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='914', processName='control strip', executableName='control strip', folderName='/System/Library/CoreServices/ControlStrip.app/Contents/MacOS/ControlStrip', hashCode='7f1d8fd1e85bb60498b23ac2676c34d6bdd3aa7d81b64eb111611287ecc30b71', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='0', processName='kernel_task', executableName='kernel_task', folderName='/sbin/launchd', hashCode='d5fe28c4c1c3df4e04b8a05c10837295fc9720230495852c1dbe24158477e789', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='576', processName='thermalmonitord', executableName='thermalmonitord', folderName='/usr/libexec/thermalmonitord', hashCode='b3b0f7001f5e997ef7559867176f7441aece4efff38bdb586b46ee2bb18de66e', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1622', processName='systemuiserver', executableName='systemuiserver', folderName='/System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer', hashCode='2d7775b56901c240b92fc5d5c28c5dfb01348d7681100ce861886e8b7c244e63', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='966', processName='sharedfilelistd', executableName='sharedfilelistd', folderName='/System/Library/CoreServices/sharedfilelistd', hashCode='4f6af222af23d480fa46324b098d48ee14a4586c1e6606a1036f4f778c41b0f0', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1', processName='launchd', executableName='launchd', folderName='/sbin/launchd', hashCode='d5fe28c4c1c3df4e04b8a05c10837295fc9720230495852c1dbe24158477e789', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33605', processName='coreservicesuiagent', executableName='coreservicesuiagent', folderName='/System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent', hashCode='d9d3c9860550aa6f7869ef4bfd2ee7767480dc14addc6c7fb00d2eb9e7e2dc61', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='24280', processName='com.apple.pressandhold', executableName='com.apple.pressandhold', folderName='/System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension', hashCode='3b43ec390c8b3b32051b9118c710b5562950e41eca4c79ef9e4ab50cacc261e5', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='1712', processName='textinputmenuagent', executableName='textinputmenuagent', folderName='/System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent', hashCode='a3b004506d897de79f08c5bd824d893e3dc4b1a9182ebfa8f042e0fbea68aea9', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='607', processName='windowserver', executableName='windowserver', folderName='/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/WindowServer', hashCode='6df277d45e949615043781d678301f1e4d7e2b954ed69a1ec1de804a1df15987', processCategory='allowed', actionStatusCode='none', visibleInterface='true', processType=p}, ProcessLog{processId='604', processName='airplayxpchelper', executableName='airplayxpchelper', folderName='/usr/libexec/AirPlayXPCHelper', hashCode='d970f59f6d61631da8ee717a89b50141daeb4d8d0a1c3ac34e49e863fa2d391a', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='33734', processName='onvue helper', executableName='onvue helper', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper.app/Contents/MacOS/OnVUE Helper', hashCode='ad0ab178d363a3531ceb68fe78998ede05cbef178956053fb8cd28aecc6260bd', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='611', processName='loginwindow', executableName='loginwindow', folderName='/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow', hashCode='ed12bdeca7439139fc10f755671a7ea0c388bd9770bfbf7b1f5e77c21b4ca2b4', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='32467', processName='corelocationagent', executableName='corelocationagent', folderName='/System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent', hashCode='c4fd3c12bb884063644ca69cf4c3d42939588a0deab5ede89348de56951c2515', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='29676', processName='distnoted', executableName='distnoted', folderName='/usr/sbin/distnoted', hashCode='c76a48a558c78078d812c28b6c118ba35a433991863e7ac28907d2970fdffd10', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='34308', processName='onvue helper (plugin)', executableName='onvue helper (plugin)', folderName='/private/var/folders/96/gw3zcsz91b7gxnzpqmp4nx400000gn/T/AppTranslocation/204913F1-99BA-411F-B772-2D52DAB3137B/d/OnVUE.app/Contents/Frameworks/OnVUE Helper (Plugin).app/Contents/MacOS/OnVUE Helper (Plugin)', hashCode='6551fc7f2e8702383bad882b8522ff10c70a420764230e18cb8917454630f2c9', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}, ProcessLog{processId='24320', processName='emojifunctionrowim', executableName='emojifunctionrowim', folderName='/System/Library/Input Methods/EmojiFunctionRowIM.app/Contents/PlugIns/EmojiFunctionRowIM_Extension.appex/Contents/MacOS/EmojiFunctionRowIM_Extension', hashCode='fe9e4dde90bb62a46c9d93e746dfb74bed43b835accfb2220b10a3567284b7a0', processCategory='allowed', actionStatusCode='none', visibleInterface='false', processType=p}]', workstations=[WorkstationInfo{sessionStart='Thu Nov 28 17:06:15 CET 2024', name='Damilola Samuel MacBook Pro', pwid='FVFFHGZJQ05D}]', operatingSystem='mac', processProfileSnapShotHashCode='2dd64ae6ee96d36dd3bd1f0cb6b4ae02dbe9c2c3169b98c333f351270376cf30', clientCode='BRIGHTEST', sessionId='e6139907-f694-4e2a-ac0d-0cc5ffd607ee'}, applicationName=BROWSERLOCKOSX, registrationId=492907104
+2024-11-28 17:52:53.377+0100 [BROWSERLOCKOSX] [INFO] Process Log Response Code :200
+2024-11-28 17:52:53.377+0100 [BROWSERLOCKOSX] [INFO] Processes/Services has been successfully sent to SDS
+2024-11-28 17:53:03.797+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:53:28.028+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:53:51.482+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:54:15.002+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:54:40.910+0100 [BROWSERLOCKOSX] [INFO] Main screen name:  (AirPlay)
+2024-11-28 17:54:41.024+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:55:06.345+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:55:31.800+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:56:39.813+0100 [BROWSERLOCKOSX] [INFO] VPN is connected. vpnConnectionResult=true
+2024-11-28 17:57:25.242+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 17:57:25.287+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: dock, 
+2024-11-28 17:57:25.426+0100 [BROWSERLOCKOSX] [INFO] Process 'dock' action changed from 'PAUSE' to 'TERMINATE'
+2024-11-28 17:57:25.701+0100 [BROWSERLOCKOSX] [INFO] Executing termination step: processTerminator=az
+2024-11-28 17:57:25.743+0100 [BROWSERLOCKOSX] [INFO] Terminate processes found: processes="[google chrome, dock]"
+2024-11-28 17:57:25.878+0100 [BROWSERLOCKOSX] [INFO] Processes added in termination dialog after browserlock launched are: [google chrome, dock]
+2024-11-28 18:37:42.032+0100 [BROWSERLOCKOSX] [INFO] Java version = 21.0.4
+2024-11-28 18:37:42.079+0100 [BROWSERLOCKOSX] [INFO] Secure delivery service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2024-11-28 18:37:43.761+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching logging service url :200
+2024-11-28 18:37:43.762+0100 [BROWSERLOCKOSX] [INFO] Browserlock logging service url is successfully fetched from SDS
+2024-11-28 18:37:43.763+0100 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=/l9KusDM851uKwX+Dko1DZRGeB8/hRaLWplZ/iObzBgBRD0BBM3v9q4V2WkoXlImj+E3/02d1JCeYr397cdUJ9N71hqbatM2uFpffqvTjmYST86azFTmqLk56fGr+m918/nl02RWwDFWImpYJvyavQZBd19a4TL9ryMbR4LP2PkmkvEiar1AKVZXT9IroBO8eVZ5MiGFgIg3vfk2aL8Ybkd+s4Chlz+zeKMHcP/gUQ==
+2024-11-28 18:37:44.451+0100 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2024-11-28 18:37:44.452+0100 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2024-11-28 18:37:44.751+0100 [BROWSERLOCKOSX] [INFO] JNI Env set!
+2024-11-28 18:37:44.755+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in System Test
+2024-11-28 18:37:44.755+0100 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=BRIGHTEST 
+2024-11-28 18:37:44.755+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2024-11-28 18:37:44.755+0100 [BROWSERLOCKOSX] [INFO] Received BL language is invalid: blLanguage=null
+2024-11-28 18:37:45.859+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2024-11-28 18:37:45.860+0100 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2024-11-28 18:37:45.879+0100 [BROWSERLOCKOSX] [INFO] Enable Swift Flag: enableSwift=true
+2024-11-28 18:37:45.880+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE hash mismatch: stopOnOnvueHashMismatch=false
+2024-11-28 18:37:45.880+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE process name mismatch: stopOnOnvueProcessNameMismatch=false
+2024-11-28 18:37:45.880+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE session invalid: stopOnOnvueSessionInvalid=false
+2024-11-28 18:37:45.880+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on Machine guid mismatch: stopOnMachineGuidMismatch=false
+2024-11-28 18:37:45.880+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on user name mismatch: stopOnUserNameMismatch=false
+2024-11-28 18:37:45.880+0100 [BROWSERLOCKOSX] [INFO] validate Certificate Expiry for Public Key Pinning in days=180
+2024-11-28 18:37:45.880+0100 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2024-11-28 18:37:45.881+0100 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2024-11-28 18:37:45.881+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on hash value mismatch violation: stopOnHashMismatch=true
+2024-11-28 18:37:45.881+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on shutdown file changed: stopOnShutdownFileChanged=true
+2024-11-28 18:37:45.881+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on VPN detection using maxmind: stopOnVpnAnonymousDetection=false
+2024-11-28 18:37:45.881+0100 [BROWSERLOCKOSX] [INFO] Log VPN detection details using maxmind: logAnonymousVpnDetection=true
+2024-11-28 18:37:45.910+0100 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -C, BRIGHTEST, -ST, -BR]", url="null", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="BRIGHTEST", deliveryMode="op", validArgs=true
+2024-11-28 18:37:45.953+0100 [BROWSERLOCKOSX] [INFO] ChipType identified. chipType=Apple M1
+2024-11-28 18:37:46.461+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 18:37:46.465+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX 
+2024-11-28 18:37:46.466+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX
+2024-11-28 18:37:47.211+0100 [BROWSERLOCKOSX] [INFO] Delivery Config Response Code :200
+2024-11-28 18:37:47.215+0100 [BROWSERLOCKOSX] [INFO] Forensic Delivery Config is successfully fetched from SDS
+2024-11-28 18:37:47.218+0100 [BROWSERLOCKOSX] [INFO] VM Allowed flag value from forensics is vmAllowedForensic=false
+2024-11-28 18:37:47.218+0100 [BROWSERLOCKOSX] [INFO] Multiple Monitor Allowed flag value from forensics is multiMonitorAllowedForensic=false
+2024-11-28 18:37:47.218+0100 [BROWSERLOCKOSX] [INFO] VPN Allowed flag value from forensics is vpnAllowedForensic=false
+2024-11-28 18:37:47.219+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP Detection flag value from forensics is anonymousIPDetection=false
+2024-11-28 18:37:47.275+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2024-11-28 18:37:47.277+0100 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2024-11-28 18:37:47.277+0100 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2024-11-28 18:37:47.277+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2024-11-28 18:37:47.277+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2024-11-28 18:37:47.277+0100 [BROWSERLOCKOSX] [INFO] VPN configuration received from SDS will be applied for validation
+2024-11-28 18:37:47.277+0100 [BROWSERLOCKOSX] [INFO] VPN detection value is: vpnDetectConfig=true
+2024-11-28 18:37:47.277+0100 [BROWSERLOCKOSX] [INFO] USB mass storage detection value is: usbDetectConfig=true
+2024-11-28 18:37:47.278+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP logging value is: anonymousIPLogging=false
+2024-11-28 18:37:47.278+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP detection value is: anonymousIPDetection=false
+2024-11-28 18:37:47.593+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 18:37:47.600+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST 
+2024-11-28 18:37:47.604+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST
+2024-11-28 18:37:47.818+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching client minimum version :200
+2024-11-28 18:37:47.819+0100 [BROWSERLOCKOSX] [INFO] Client minimum version is successfully fetched from SDS
+2024-11-28 18:37:47.819+0100 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required, minimumVersion=2402
+2024-11-28 18:37:47.819+0100 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2411.1.2
+2024-11-28 18:37:49.861+0100 [BROWSERLOCKOSX] [INFO] Main screen name: Built-in Retina Display
+2024-11-28 18:37:49.863+0100 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2024-11-28 18:37:50.366+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 18:37:50.373+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX 
+2024-11-28 18:37:50.377+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX
+2024-11-28 18:37:51.675+0100 [BROWSERLOCKOSX] [INFO] Fetch Forensic Pal Response Code :200
+2024-11-28 18:37:51.678+0100 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2024-11-28 18:37:51.678+0100 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1628 ms
+2024-11-28 18:37:51.820+0100 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2024-11-28 18:37:52.113+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 18:37:52.116+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: zoom.us, sirincservice, grammarly desktop, 1password, jetbrains toolbox, general (system settings), cursoruiviewservice, universal control, spotlight, wallpaper, finder, control center, system settings, opera, surfshark, notification center, 
+2024-11-28 18:37:52.141+0100 [BROWSERLOCKOSX] [INFO] Processes present in exit file {"processes":[{"processName":"google chrome"}]}
+2024-11-28 18:37:52.148+0100 [BROWSERLOCKOSX] [INFO] Resuming processes: sirincservice, zoom.us, system settings, general (system settings), opera, wallpaper, surfshark, notification center, spotlight, 1password, grammarly desktop, universal control, finder, jetbrains toolbox, cursoruiviewservice, control center, 
+2024-11-28 18:37:52.151+0100 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2024-11-28 18:37:52.158+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2024-11-28 18:37:52.181+0100 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 
+2024-11-28 18:38:08.089+0100 [BROWSERLOCKOSX] [INFO] Java version = 21.0.4
+2024-11-28 18:38:08.134+0100 [BROWSERLOCKOSX] [INFO] Secure delivery service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2024-11-28 18:38:09.651+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching logging service url :200
+2024-11-28 18:38:09.651+0100 [BROWSERLOCKOSX] [INFO] Browserlock logging service url is successfully fetched from SDS
+2024-11-28 18:38:09.652+0100 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=sJPDBVJjeJVouIxke1I7W/mSOJRBSscazLOEg5EA8gwOwpuAoYU0dxGxRCJLt7zjb5Mf7gW6ndBFroInchQJJlryBBEI8mSqRSEt1vvLb4/Cyg0JiHr9xATRxewRETT4IyHuvOaSbaOnSwPwnH4/7VjAp3pDSuBg9VMDg5E1ueBOboHTfNk5UX7p2r+84Vh8jQ2nEbJC702baCkrB0mN33ljqABZoNNamXAPbJ8CGQ==
+2024-11-28 18:38:10.404+0100 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2024-11-28 18:38:10.405+0100 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2024-11-28 18:38:10.423+0100 [BROWSERLOCKOSX] [INFO] JNI Env set!
+2024-11-28 18:38:10.427+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in System Test
+2024-11-28 18:38:10.428+0100 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=BRIGHTEST 
+2024-11-28 18:38:10.428+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2024-11-28 18:38:10.428+0100 [BROWSERLOCKOSX] [INFO] Received BL language is invalid: blLanguage=null
+2024-11-28 18:38:11.246+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2024-11-28 18:38:11.248+0100 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2024-11-28 18:38:11.270+0100 [BROWSERLOCKOSX] [INFO] Enable Swift Flag: enableSwift=true
+2024-11-28 18:38:11.270+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE hash mismatch: stopOnOnvueHashMismatch=false
+2024-11-28 18:38:11.270+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE process name mismatch: stopOnOnvueProcessNameMismatch=false
+2024-11-28 18:38:11.270+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE session invalid: stopOnOnvueSessionInvalid=false
+2024-11-28 18:38:11.271+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on Machine guid mismatch: stopOnMachineGuidMismatch=false
+2024-11-28 18:38:11.271+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on user name mismatch: stopOnUserNameMismatch=false
+2024-11-28 18:38:11.271+0100 [BROWSERLOCKOSX] [INFO] validate Certificate Expiry for Public Key Pinning in days=180
+2024-11-28 18:38:11.271+0100 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2024-11-28 18:38:11.271+0100 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2024-11-28 18:38:11.271+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on hash value mismatch violation: stopOnHashMismatch=true
+2024-11-28 18:38:11.272+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on shutdown file changed: stopOnShutdownFileChanged=true
+2024-11-28 18:38:11.272+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on VPN detection using maxmind: stopOnVpnAnonymousDetection=false
+2024-11-28 18:38:11.272+0100 [BROWSERLOCKOSX] [INFO] Log VPN detection details using maxmind: logAnonymousVpnDetection=true
+2024-11-28 18:38:11.301+0100 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -C, BRIGHTEST, -ST, -BR]", url="null", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="BRIGHTEST", deliveryMode="op", validArgs=true
+2024-11-28 18:38:11.342+0100 [BROWSERLOCKOSX] [INFO] ChipType identified. chipType=Apple M1
+2024-11-28 18:38:11.862+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 18:38:11.866+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX 
+2024-11-28 18:38:11.867+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX
+2024-11-28 18:38:12.678+0100 [BROWSERLOCKOSX] [INFO] Delivery Config Response Code :200
+2024-11-28 18:38:12.681+0100 [BROWSERLOCKOSX] [INFO] Forensic Delivery Config is successfully fetched from SDS
+2024-11-28 18:38:12.683+0100 [BROWSERLOCKOSX] [INFO] VM Allowed flag value from forensics is vmAllowedForensic=false
+2024-11-28 18:38:12.685+0100 [BROWSERLOCKOSX] [INFO] Multiple Monitor Allowed flag value from forensics is multiMonitorAllowedForensic=false
+2024-11-28 18:38:12.686+0100 [BROWSERLOCKOSX] [INFO] VPN Allowed flag value from forensics is vpnAllowedForensic=false
+2024-11-28 18:38:12.686+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP Detection flag value from forensics is anonymousIPDetection=false
+2024-11-28 18:38:12.744+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2024-11-28 18:38:12.746+0100 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2024-11-28 18:38:12.746+0100 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2024-11-28 18:38:12.746+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2024-11-28 18:38:12.746+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2024-11-28 18:38:12.746+0100 [BROWSERLOCKOSX] [INFO] VPN configuration received from SDS will be applied for validation
+2024-11-28 18:38:12.746+0100 [BROWSERLOCKOSX] [INFO] VPN detection value is: vpnDetectConfig=true
+2024-11-28 18:38:12.746+0100 [BROWSERLOCKOSX] [INFO] USB mass storage detection value is: usbDetectConfig=true
+2024-11-28 18:38:12.746+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP logging value is: anonymousIPLogging=false
+2024-11-28 18:38:12.746+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP detection value is: anonymousIPDetection=false
+2024-11-28 18:38:13.065+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 18:38:13.075+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST 
+2024-11-28 18:38:13.076+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST
+2024-11-28 18:38:13.239+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching client minimum version :200
+2024-11-28 18:38:13.240+0100 [BROWSERLOCKOSX] [INFO] Client minimum version is successfully fetched from SDS
+2024-11-28 18:38:13.241+0100 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required, minimumVersion=2402
+2024-11-28 18:38:13.245+0100 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2411.1.2
+2024-11-28 18:38:13.336+0100 [BROWSERLOCKOSX] [INFO] Main screen name: Built-in Retina Display
+2024-11-28 18:38:13.336+0100 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2024-11-28 18:38:13.738+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 18:38:13.743+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX 
+2024-11-28 18:38:13.744+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX
+2024-11-28 18:38:14.705+0100 [BROWSERLOCKOSX] [INFO] Fetch Forensic Pal Response Code :200
+2024-11-28 18:38:14.707+0100 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2024-11-28 18:38:14.707+0100 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1278 ms
+2024-11-28 18:38:14.878+0100 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2024-11-28 18:38:15.096+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 18:38:15.107+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: zoom.us, sirincservice, grammarly desktop, 1password, jetbrains toolbox, general (system settings), cursoruiviewservice, universal control, spotlight, wallpaper, finder, control center, system settings, opera, surfshark, notification center, 
+2024-11-28 18:38:15.124+0100 [BROWSERLOCKOSX] [INFO] No terminate processes present to read in ovexit.dat file
+2024-11-28 18:38:15.138+0100 [BROWSERLOCKOSX] [INFO] Resuming processes: sirincservice, zoom.us, system settings, general (system settings), opera, wallpaper, surfshark, notification center, spotlight, 1password, grammarly desktop, universal control, finder, jetbrains toolbox, cursoruiviewservice, control center, 
+2024-11-28 18:38:15.139+0100 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2024-11-28 18:38:15.146+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2024-11-28 18:38:15.160+0100 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 
+2024-11-28 18:38:42.840+0100 [BROWSERLOCKOSX] [INFO] Java version = 21.0.4
+2024-11-28 18:38:42.881+0100 [BROWSERLOCKOSX] [INFO] Secure delivery service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2024-11-28 18:38:44.368+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching logging service url :200
+2024-11-28 18:38:44.368+0100 [BROWSERLOCKOSX] [INFO] Browserlock logging service url is successfully fetched from SDS
+2024-11-28 18:38:44.369+0100 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=oFi8tdaDGSAsJ4PQe8bG0/d1oQ3JfqFbql6PjA4h6PiKgMnm4jR82DBoFU28lesKuXONoxose6GxC2RS8M0IDVWYfRnN68xxZy5HY+t0jE9ZP1KZqFFZDZED1EfDMI5dhgPPwea7257utXPHBg/FjUJoZc3VoHcthJ9R9E+b98p3KZeAlCKsmJBk9HjS2OdY9s9OZ5267pP3IrPBL5sVo5JMc9td13p/wMq140Trnw1/5kEIv8gXwnsxHkTlonu1FEmrjxFtLRUAn+YwDkr25CjaQq9YfsoYSlWC4/xQbePOyawiMZ7gAtLpgIydahtEtq5vbcjV12m03IrGzcVYS6ubOzkxOZ4W7dPsVtdlXJNFu8/T5gfXltJL7Le+Ma9r4dZrPjQqVf8jvO2RAFKD
+2024-11-28 18:38:45.129+0100 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2024-11-28 18:38:45.130+0100 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2024-11-28 18:38:45.157+0100 [BROWSERLOCKOSX] [INFO] JNI Env set!
+2024-11-28 18:38:45.160+0100 [BROWSERLOCKOSX] [INFO] Browserlock is running in System Test
+2024-11-28 18:38:45.161+0100 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=BRIGHTEST 
+2024-11-28 18:38:45.161+0100 [BROWSERLOCKOSX] [INFO] Received BL language: blLanguage=en-US
+2024-11-28 18:38:45.927+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2024-11-28 18:38:45.928+0100 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2024-11-28 18:38:45.939+0100 [BROWSERLOCKOSX] [INFO] Enable Swift Flag: enableSwift=true
+2024-11-28 18:38:45.940+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE hash mismatch: stopOnOnvueHashMismatch=false
+2024-11-28 18:38:45.940+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE process name mismatch: stopOnOnvueProcessNameMismatch=false
+2024-11-28 18:38:45.940+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on OnVUE session invalid: stopOnOnvueSessionInvalid=false
+2024-11-28 18:38:45.940+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on Machine guid mismatch: stopOnMachineGuidMismatch=false
+2024-11-28 18:38:45.940+0100 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on user name mismatch: stopOnUserNameMismatch=false
+2024-11-28 18:38:45.940+0100 [BROWSERLOCKOSX] [INFO] validate Certificate Expiry for Public Key Pinning in days=180
+2024-11-28 18:38:45.941+0100 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2024-11-28 18:38:45.941+0100 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2024-11-28 18:38:45.941+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on hash value mismatch violation: stopOnHashMismatch=true
+2024-11-28 18:38:45.941+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on shutdown file changed: stopOnShutdownFileChanged=true
+2024-11-28 18:38:45.941+0100 [BROWSERLOCKOSX] [INFO] Stopping BrowserLock on VPN detection using maxmind: stopOnVpnAnonymousDetection=false
+2024-11-28 18:38:45.941+0100 [BROWSERLOCKOSX] [INFO] Log VPN detection details using maxmind: logAnonymousVpnDetection=true
+2024-11-28 18:38:45.979+0100 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -C, BRIGHTEST, -ST, -L, -LN, EN-US, -U, HTTPS://CANDIDATELAUNCHST.ONVUE.COM/DELIVERY?SESSION_ID=41220454&ACCESS_CODE=648019532&LOCALE=EN-US&TOKEN=UNDEFINED]", url="https://candidatelaunchst.onvue.com/delivery?session_id=41220454&access_code=648019532&locale=en-US&token=undefined", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="BRIGHTEST", deliveryMode="op", validArgs=true
+2024-11-28 18:38:46.019+0100 [BROWSERLOCKOSX] [INFO] ChipType identified. chipType=Apple M1
+2024-11-28 18:38:46.553+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 18:38:46.558+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX 
+2024-11-28 18:38:46.561+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/deliveryConfigs/bl/mac?deliveryMode=op&client=BRIGHTEST&application=BROWSERLOCKOSX
+2024-11-28 18:38:47.242+0100 [BROWSERLOCKOSX] [INFO] Delivery Config Response Code :200
+2024-11-28 18:38:47.243+0100 [BROWSERLOCKOSX] [INFO] Forensic Delivery Config is successfully fetched from SDS
+2024-11-28 18:38:47.246+0100 [BROWSERLOCKOSX] [INFO] VM Allowed flag value from forensics is vmAllowedForensic=false
+2024-11-28 18:38:47.247+0100 [BROWSERLOCKOSX] [INFO] Multiple Monitor Allowed flag value from forensics is multiMonitorAllowedForensic=false
+2024-11-28 18:38:47.247+0100 [BROWSERLOCKOSX] [INFO] VPN Allowed flag value from forensics is vpnAllowedForensic=false
+2024-11-28 18:38:47.247+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP Detection flag value from forensics is anonymousIPDetection=false
+2024-11-28 18:38:47.297+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2024-11-28 18:38:47.297+0100 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2024-11-28 18:38:47.297+0100 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2024-11-28 18:38:47.297+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2024-11-28 18:38:47.297+0100 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2024-11-28 18:38:47.298+0100 [BROWSERLOCKOSX] [INFO] VPN configuration received from SDS will be applied for validation
+2024-11-28 18:38:47.299+0100 [BROWSERLOCKOSX] [INFO] VPN detection value is: vpnDetectConfig=true
+2024-11-28 18:38:47.299+0100 [BROWSERLOCKOSX] [INFO] USB mass storage detection value is: usbDetectConfig=true
+2024-11-28 18:38:47.299+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP logging value is: anonymousIPLogging=false
+2024-11-28 18:38:47.299+0100 [BROWSERLOCKOSX] [INFO] Anonymous IP detection value is: anonymousIPDetection=false
+2024-11-28 18:38:47.607+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 18:38:47.611+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST 
+2024-11-28 18:38:47.612+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/minBrowserVersion?application=BROWSERLOCKOSX&clientCode=BRIGHTEST
+2024-11-28 18:38:47.768+0100 [BROWSERLOCKOSX] [INFO] Response code received after fetching client minimum version :200
+2024-11-28 18:38:47.772+0100 [BROWSERLOCKOSX] [INFO] Client minimum version is successfully fetched from SDS
+2024-11-28 18:38:47.772+0100 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required, minimumVersion=2402
+2024-11-28 18:38:47.772+0100 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2411.1.2
+2024-11-28 18:38:47.834+0100 [BROWSERLOCKOSX] [INFO] Main screen name: Built-in Retina Display
+2024-11-28 18:38:47.835+0100 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2024-11-28 18:38:48.656+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 18:38:48.660+0100 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX 
+2024-11-28 18:38:48.662+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=BRIGHTEST&deliveryMode=op&application=BROWSERLOCKOSX
+2024-11-28 18:38:49.765+0100 [BROWSERLOCKOSX] [INFO] Fetch Forensic Pal Response Code :200
+2024-11-28 18:38:49.766+0100 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2024-11-28 18:38:49.769+0100 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1410 ms
+2024-11-28 18:38:49.917+0100 [BROWSERLOCKOSX] [INFO] Starting Event Listener
+2024-11-28 18:38:49.961+0100 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2024-11-28 18:38:50.139+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 18:38:50.141+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: zoom.us, sirincservice, grammarly desktop, 1password, jetbrains toolbox, general (system settings), cursoruiviewservice, universal control, spotlight, wallpaper, finder, control center, system settings, opera, surfshark, notification center, 
+2024-11-28 18:38:50.143+0100 [BROWSERLOCKOSX] [INFO] Hide dock
+2024-11-28 18:38:50.317+0100 [BROWSERLOCKOSX] [INFO] Starting input handler
+2024-11-28 18:38:50.324+0100 [BROWSERLOCKOSX] [INFO] Did we load the core graphics bundle? true
+2024-11-28 18:38:50.332+0100 [BROWSERLOCKOSX] [INFO] Setting 176 HotKeys to enabled-status: false
+2024-11-28 18:38:50.733+0100 [BROWSERLOCKOSX] [INFO] Notification center disabled
+2024-11-28 18:38:50.739+0100 [BROWSERLOCKOSX] [INFO] Requested screen count from system: maxDisplays=1
+2024-11-28 18:38:50.739+0100 [BROWSERLOCKOSX] [INFO] Showing main display: mainDisplayId=1
+2024-11-28 18:38:50.851+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 18:38:50.852+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: dock, dock, 
+2024-11-28 18:38:50.852+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 18:38:50.853+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: dock, dock, 
+2024-11-28 18:38:50.854+0100 [BROWSERLOCKOSX] [INFO] Displaying Browser Loading dialog
+2024-11-28 18:38:52.174+0100 [BROWSERLOCKOSX] [INFO] MachineGuid=0cd52d14-461a-58bf-bd60-3631842e0e64
+2024-11-28 18:38:52.196+0100 [BROWSERLOCKOSX] [INFO] Starting the SRE application
+2024-11-28 18:38:52.196+0100 [BROWSERLOCKOSX] [INFO] SRE launcher object: aM@4116a7ed
+2024-11-28 18:39:05.921+0100 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2024-11-28 18:39:05.924+0100 [BROWSERLOCKOSX] [INFO] Pausing processes: notification center, 
+2024-11-28 18:39:46.031+0100 [BROWSERLOCKOSX] [INFO] System information: name=macOS, version=15.1.1, arch=x86_64
+2024-11-28 18:39:46.035+0100 [BROWSERLOCKOSX] [INFO] Stats (memory in kB): processors=8, totalMemory=37888.0, freeMemory=9270.3125, memoryUsage=28617.0
+2024-11-28 18:39:46.114+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="oahd-helper", cpuPercent=94.9
+2024-11-28 18:39:46.116+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=39.1
+2024-11-28 18:39:46.117+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=30.3
+2024-11-28 18:39:46.118+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=27.4
+2024-11-28 18:39:46.118+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=26.6
+2024-11-28 18:39:46.118+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=25.2
+2024-11-28 18:39:46.118+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=22.4
+2024-11-28 18:39:46.118+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mds", cpuPercent=21.2
+2024-11-28 18:39:46.119+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=16.0
+2024-11-28 18:39:46.119+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="WindowServer", cpuPercent=15.7
+2024-11-28 18:39:46.119+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=14.2
+2024-11-28 18:39:46.119+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=13.8
+2024-11-28 18:39:46.119+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=13.0
+2024-11-28 18:39:46.119+0100 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="mdworker_shared", cpuPercent=11.9
+2024-11-28 18:40:10.216+0100 [BROWSERLOCKOSX] [INFO] User Agent from Browser Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Pearson VUE Browser Lock_mac/2411.1.2
+2024-11-28 18:40:10.409+0100 [BROWSERLOCKOSX] [INFO] Load SRE url: https://candidatelaunchst.onvue.com/delivery?session_id=41220454&access_code=648019532&locale=en-US&token=undefined
+2024-11-28 18:40:11.732+0100 [BROWSERLOCKOSX] [INFO] Determining if window should be hidden. sreBrowserType=STANDARD, isShowScoreReport=false, isPrimaryScoreReportWindow=false
+2024-11-28 18:40:12.089+0100 [BROWSERLOCKOSX] [INFO] Send notification to Browserlock
+2024-11-28 18:40:12.099+0100 [BROWSERLOCKOSX] [INFO] Received the notification event to close the loading view dialog
+2024-11-28 18:40:12.126+0100 [BROWSERLOCKOSX] [INFO] Total number of external USB devices detected are: usbKeyboard=0, usbMouse=0, usbReceiver=0
+2024-11-28 18:40:12.549+0100 [BROWSERLOCKOSX] [INFO] Closing Browser Loading dialog
+2024-11-28 18:40:12.861+0100 [BROWSERLOCKOSX] [INFO] Loading view dialog is closed successfully
+2024-11-28 18:40:13.612+0100 [BROWSERLOCKOSX] [INFO] Total number of bluetooth devices detected are: bluetoothKeyboard=0, bluetoothMouse=0
+2024-11-28 18:40:16.870+0100 [BROWSERLOCKOSX] [INFO] Total time taken to calculate hash for: registrationID=, totalHashGenerationTime=4738 ms
+2024-11-28 18:40:16.879+0100 [BROWSERLOCKOSX] [INFO] Report processes/apps to SDS on start of BrowserLock
+2024-11-28 18:40:16.983+0100 [BROWSERLOCKOSX] [INFO] Cannot report processes/apps to SDS. No processes to send or Registration Id is empty
+2024-11-28 18:40:18.135+0100 [BROWSERLOCKOSX] [INFO] Frame load finished: newUrl="https://candidatelaunchst.onvue.com/delivery?session_id=41220454&access_code=648019532&locale=en-US&token=undefined", jxBrowser="2122918889", browserTitle="OnVUE"
+2024-11-28 18:40:18.137+0100 [BROWSERLOCKOSX] [INFO] Loading new url="https://candidatelaunchst.onvue.com/delivery?session_id=41220454&access_code=648019532&locale=en-US&token=undefined"
+2024-11-28 18:40:18.137+0100 [BROWSERLOCKOSX] [INFO] Browser loading finished
+2024-11-28 18:40:30.510+0100 [BROWSERLOCKOSX] [INFO] Frame load finished: newUrl="https://abe-prd-1.pvue2.com/st2/driver/startDelivery?sessionUUID=d6b7e6cc-5eae-4409-ab8f-70f5fb23446e", jxBrowser="2122918889", browserTitle="Pearson VUE test content"
+2024-11-28 18:40:30.531+0100 [BROWSERLOCKOSX] [INFO] Loading new url="https://abe-prd-1.pvue2.com/st2/driver/startDelivery?sessionUUID=d6b7e6cc-5eae-4409-ab8f-70f5fb23446e"
+2024-11-28 18:40:30.551+0100 [BROWSERLOCKOSX] [INFO] OnURIChange newUri="https://abe-prd-1.pvue2.com/st2/driver/startDelivery?sessionUUID=d6b7e6cc-5eae-4409-ab8f-70f5fb23446e"
+2024-11-28 18:40:31.240+0100 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2024-11-28 18:40:31.254+0100 [BROWSERLOCKOSX] [INFO] Driver Current Public Keys Match for URL: https://abe-prd-1.pvue2.com/st2/driver/startDelivery?sessionUUID=d6b7e6cc-5eae-4409-ab8f-70f5fb23446e 
+2024-11-28 18:40:31.256+0100 [BROWSERLOCKOSX] [INFO] Certificate is valid for url=https://abe-prd-1.pvue2.com/st2/driver/startDelivery?sessionUUID=d6b7e6cc-5eae-4409-ab8f-70f5fb23446e
+2024-11-28 18:40:31.256+0100 [BROWSERLOCKOSX] [INFO] Browser loading finished
+2024-11-28 18:44:04.591+0100 [BROWSERLOCKOSX] [INFO] Frame load finished: newUrl="https://candidatelaunchst.onvue.com/athena-complete?session_id=41220454&status=success", jxBrowser="2122918889", browserTitle="OnVUE"
+2024-11-28 18:44:04.607+0100 [BROWSERLOCKOSX] [INFO] Loading new url="https://candidatelaunchst.onvue.com/athena-complete?session_id=41220454&status=success"
+2024-11-28 18:44:04.620+0100 [BROWSERLOCKOSX] [INFO] OnURIChange newUri="https://candidatelaunchst.onvue.com/athena-complete?session_id=41220454&status=success"
+2024-11-28 18:44:04.629+0100 [BROWSERLOCKOSX] [INFO] Browser loading finished
+2024-11-28 18:45:33.466+0100 [BROWSERLOCKOSX] [INFO] Report processes/apps to SDS on stop of BrowserLock
+2024-11-28 18:45:33.564+0100 [BROWSERLOCKOSX] [INFO] Cannot report processes/apps to SDS. No processes to send or Registration Id is empty
+2024-11-28 18:45:33.700+0100 [BROWSERLOCKOSX] [INFO] Closing Browser Loading dialog
+2024-11-28 18:45:33.877+0100 [BROWSERLOCKOSX] [INFO] Resuming processes: sirincservice, notification center, zoom.us, system settings, general (system settings), opera, wallpaper, surfshark, notification center, spotlight, 1password, dock, grammarly desktop, universal control, finder, jetbrains toolbox, cursoruiviewservice, control center, 
+2024-11-28 18:45:33.880+0100 [BROWSERLOCKOSX] [INFO] Show dock
+2024-11-28 18:45:34.332+0100 [BROWSERLOCKOSX] [INFO] Stopping input handler
+2024-11-28 18:45:34.342+0100 [BROWSERLOCKOSX] [INFO] Did we load the core graphics bundle? true
+2024-11-28 18:45:34.345+0100 [BROWSERLOCKOSX] [INFO] Setting 176 HotKeys to enabled-status: true
+2024-11-28 18:45:35.716+0100 [BROWSERLOCKOSX] [INFO] Notification center enabled
+2024-11-28 18:45:35.719+0100 [BROWSERLOCKOSX] [INFO] Releasing display: displayId=1
+2024-11-28 18:45:35.719+0100 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2024-11-28 18:45:37.813+0100 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2024-11-28 18:45:38.373+0100 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=0 
